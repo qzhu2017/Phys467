@@ -1,0 +1,4404 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  30 APR 2019 18:33
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks15
+\pgfutil@tempdima=\dimen105
+\pgfutil@tempdimb=\dimen106
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box26
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks16
+\pgfkeys@temptoks=\toks17
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks18
+))
+\pgf@x=\dimen107
+\pgf@y=\dimen108
+\pgf@xa=\dimen109
+\pgf@ya=\dimen110
+\pgf@xb=\dimen111
+\pgf@yb=\dimen112
+\pgf@xc=\dimen113
+\pgf@yc=\dimen114
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count88
+\c@pgf@countb=\count89
+\c@pgf@countc=\count90
+\c@pgf@countd=\count91
+\t@pgf@toka=\toks19
+\t@pgf@tokb=\toks20
+\t@pgf@tokc=\toks21
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count92
+\pgfsyssoftpath@bigbuffer@items=\count93
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen115
+\pgfmath@count=\count94
+\pgfmath@box=\box27
+\pgfmath@toks=\toks22
+\pgfmath@stack@operand=\toks23
+\pgfmath@stack@operation=\toks24
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count95
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen116
+\pgf@picmaxx=\dimen117
+\pgf@picminy=\dimen118
+\pgf@picmaxy=\dimen119
+\pgf@pathminx=\dimen120
+\pgf@pathmaxx=\dimen121
+\pgf@pathminy=\dimen122
+\pgf@pathmaxy=\dimen123
+\pgf@xx=\dimen124
+\pgf@xy=\dimen125
+\pgf@yx=\dimen126
+\pgf@yy=\dimen127
+\pgf@zx=\dimen128
+\pgf@zy=\dimen129
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen130
+\pgf@path@lasty=\dimen131
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen132
+\pgf@shorten@start@additional=\dimen133
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box28
+\pgf@hbox=\box29
+\pgf@layerbox@main=\box30
+\pgf@picture@serial@count=\count96
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen134
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen135
+\pgf@pt@y=\dimen136
+\pgf@pt@temp=\dimen137
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen138
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen139
+\pgf@sys@shading@range@num=\count97
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box31
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box32
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen140
+\pgf@nodesepend=\dimen141
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen142
+\pgffor@skip=\dimen143
+\pgffor@stack=\toks25
+\pgffor@toks=\toks26
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count98
+\pgfplotmarksize=\dimen144
+)
+\tikz@lastx=\dimen145
+\tikz@lasty=\dimen146
+\tikz@lastxsaved=\dimen147
+\tikz@lastysaved=\dimen148
+\tikzleveldistance=\dimen149
+\tikzsiblingdistance=\dimen150
+\tikz@figbox=\box33
+\tikz@figbox@bg=\box34
+\tikz@tempbox=\box35
+\tikz@tempbox@bg=\box36
+\tikztreelevel=\count99
+\tikznumberofchildren=\count100
+\tikznumberofcurrentchild=\count101
+\tikz@fig@count=\count102
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count103
+\pgfmatrixcurrentcolumn=\count104
+\pgf@matrix@numberofcolumns=\count105
+)
+\tikz@expandcount=\count106
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup4
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen151
+\Hy@linkcounter=\count107
+\Hy@pagecounter=\count108
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count109
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count110
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen152
+\Fld@menulength=\count111
+\Field@Width=\dimen153
+\Fld@charsize=\dimen154
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count112
+\c@Item=\count113
+\c@Hfootnote=\count114
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count115
+\c@bookmark@seq@number=\count116
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip43
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/sidecap/sidecap.sty
+Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\SC@BOXWD=\dimen155
+\SC@CAPWD=\dimen156
+\SC@tempdima=\dimen157
+\SC@tempdimb=\dimen158
+\c@SC@C=\count117
+\SC@BOX=\box37
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2017/01/16 v4.06 for typesetting chemical formulae
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2017/05/13 L3 programming layer (loader) 
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2017/05/13 L3 programming layer (code)
+\c_max_int=\count118
+\l_tmpa_int=\count119
+\l_tmpb_int=\count120
+\g_tmpa_int=\count121
+\g_tmpb_int=\count122
+\g__prg_map_int=\count123
+\c_log_iow=\count124
+\l_iow_line_count_int=\count125
+\l__iow_line_target_int=\count126
+\l__iow_one_indent_int=\count127
+\l__iow_indent_int=\count128
+\c_zero_dim=\dimen159
+\c_max_dim=\dimen160
+\l_tmpa_dim=\dimen161
+\l_tmpb_dim=\dimen162
+\g_tmpa_dim=\dimen163
+\g_tmpb_dim=\dimen164
+\c_zero_skip=\skip44
+\c_max_skip=\skip45
+\l_tmpa_skip=\skip46
+\l_tmpb_skip=\skip47
+\g_tmpa_skip=\skip48
+\g_tmpb_skip=\skip49
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count129
+\c__fp_leading_shift_int=\count130
+\c__fp_middle_shift_int=\count131
+\c__fp_trailing_shift_int=\count132
+\c__fp_big_leading_shift_int=\count133
+\c__fp_big_middle_shift_int=\count134
+\c__fp_big_trailing_shift_int=\count135
+\c__fp_Bigg_leading_shift_int=\count136
+\c__fp_Bigg_middle_shift_int=\count137
+\c__fp_Bigg_trailing_shift_int=\count138
+\c__fp_rand_size_int=\count139
+\c__fp_rand_four_int=\count140
+\c__fp_rand_eight_int=\count141
+\l__sort_length_int=\count142
+\l__sort_min_int=\count143
+\l__sort_top_int=\count144
+\l__sort_max_int=\count145
+\l__sort_true_max_int=\count146
+\l__sort_block_int=\count147
+\l__sort_begin_int=\count148
+\l__sort_end_int=\count149
+\l__sort_A_int=\count150
+\l__sort_B_int=\count151
+\l__sort_C_int=\count152
+\c_empty_box=\box38
+\l_tmpa_box=\box39
+\l_tmpb_box=\box40
+\g_tmpa_box=\box41
+\g_tmpb_box=\box42
+\l__box_top_dim=\dimen165
+\l__box_bottom_dim=\dimen166
+\l__box_left_dim=\dimen167
+\l__box_right_dim=\dimen168
+\l__box_top_new_dim=\dimen169
+\l__box_bottom_new_dim=\dimen170
+\l__box_left_new_dim=\dimen171
+\l__box_right_new_dim=\dimen172
+\l__box_internal_box=\box43
+\l__coffin_internal_box=\box44
+\l__coffin_internal_dim=\dimen173
+\l__coffin_offset_x_dim=\dimen174
+\l__coffin_offset_y_dim=\dimen175
+\l__coffin_x_dim=\dimen176
+\l__coffin_y_dim=\dimen177
+\l__coffin_x_prime_dim=\dimen178
+\l__coffin_y_prime_dim=\dimen179
+\c_empty_coffin=\box45
+\l__coffin_aligned_coffin=\box46
+\l__coffin_aligned_internal_coffin=\box47
+\l_tmpa_coffin=\box48
+\l_tmpb_coffin=\box49
+\l__coffin_display_coffin=\box50
+\l__coffin_display_coord_coffin=\box51
+\l__coffin_display_pole_coffin=\box52
+\l__coffin_display_offset_dim=\dimen180
+\l__coffin_display_x_dim=\dimen181
+\l__coffin_display_y_dim=\dimen182
+\l__coffin_bounding_shift_dim=\dimen183
+\l__coffin_left_corner_dim=\dimen184
+\l__coffin_right_corner_dim=\dimen185
+\l__coffin_bottom_corner_dim=\dimen186
+\l__coffin_top_corner_dim=\dimen187
+\l__coffin_scaled_total_height_dim=\dimen188
+\l__coffin_scaled_width_dim=\dimen189
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count153
+\l__driver_tmp_box=\box53
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2017/05/13 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/l3experimental/l3str/l3regex.st
+y
+Package: l3regex 2017/05/13 L3 Experimental regular expressions
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3experimental/l3str/l3tl-build.s
+ty
+Package: l3tl-build 2017/05/13 L3 Experimental token list construction
+\l__tl_build_start_index_int=\count154
+\l__tl_build_index_int=\count155
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3experimental/l3str/l3tl-analysi
+s.sty
+Package: l3tl-analysis 2017/05/13 L3 Experimental token list analysis
+\l__tl_analysis_normal_int=\count156
+\l__tl_analysis_index_int=\count157
+\l__tl_analysis_nesting_int=\count158
+\l__tl_analysis_type_int=\count159
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3experimental/l3str/l3intarray.s
+ty
+Package: l3intarray 2017/05/13 L3 Experimental low-level arrays of small intege
+rs
+\g__intarray_font_int=\count160
+)
+\l__regex_internal_a_int=\count161
+\l__regex_internal_b_int=\count162
+\l__regex_internal_c_int=\count163
+\l__regex_balance_int=\count164
+\l__regex_group_level_int=\count165
+\l__regex_mode_int=\count166
+\c__regex_cs_in_class_mode_int=\count167
+\c__regex_cs_mode_int=\count168
+\l__regex_catcodes_int=\count169
+\l__regex_default_catcodes_int=\count170
+\c__regex_catcode_D_int=\count171
+\c__regex_catcode_S_int=\count172
+\c__regex_catcode_L_int=\count173
+\c__regex_catcode_O_int=\count174
+\c__regex_catcode_A_int=\count175
+\c__regex_all_catcodes_int=\count176
+\l__regex_show_lines_int=\count177
+\l__regex_min_state_int=\count178
+\l__regex_max_state_int=\count179
+\l__regex_left_state_int=\count180
+\l__regex_right_state_int=\count181
+\l__regex_capturing_group_int=\count182
+\l__regex_min_pos_int=\count183
+\l__regex_max_pos_int=\count184
+\l__regex_current_pos_int=\count185
+\l__regex_start_pos_int=\count186
+\l__regex_success_pos_int=\count187
+\l__regex_current_char_int=\count188
+\l__regex_current_catcode_int=\count189
+\l__regex_last_char_int=\count190
+\l__regex_case_changed_char_int=\count191
+\l__regex_current_state_int=\count192
+\l__regex_step_int=\count193
+\l__regex_min_active_int=\count194
+\l__regex_max_active_int=\count195
+\l__regex_replacement_csnames_int=\count196
+\l__regex_match_count_int=\count197
+\l__regex_min_submatch_int=\count198
+\l__regex_submatch_int=\count199
+\l__regex_zeroth_submatch_int=\count266
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count267
+\calc@Bcount=\count268
+\calc@Adimen=\dimen190
+\calc@Bdimen=\dimen191
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count269
+\calc@Cskip=\skip52
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks27
+\ex@=\dimen192
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen193
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count270
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count271
+\leftroot@=\count272
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count273
+\DOTSCASE@=\count274
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+\big@size=\dimen194
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count275
+\c@MaxMatrixCols=\count276
+\dotsspace@=\muskip17
+\c@parentequation=\count277
+\dspbrk@lvl=\count278
+\tag@help=\toks28
+\row@=\count279
+\column@=\count280
+\maxfields@=\count281
+\andhelp@=\toks29
+\eqnshift@=\dimen195
+\alignsep@=\dimen196
+\tagshift@=\dimen197
+\tagwidth@=\dimen198
+\totwidth@=\dimen199
+\lineht@=\dimen256
+\@envbody=\toks30
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks31
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2017/05/13 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count282
+\g__xparse_grabber_int=\count283
+\l__xparse_m_args_int=\count284
+\l__xparse_mandatory_args_int=\count285
+\l__xparse_v_nesting_int=\count286
+)
+Package: chemgreek 2016/12/20 v1.1 interfaceforuprightgreeklettersforuseinchemi
+stry (CN)
+\l__chemgreek_tmpa_int=\count287
+\g__chemgreek_tmpa_int=\count288
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newchemgreekmapping with sig. 'O{}mm' on line 336.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \renewchemgreekmapping with sig. 'O{}mm' on line 339.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \declarechemgreekmapping with sig. 'O{}mm' on line 342.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newchemgreekmappingalias with sig. 'mm' on line 347.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \renewchemgreekmappingalias with sig. 'mm' on line 350.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \declarechemgreekmappingalias with sig. 'mm' on line 353.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \changechemgreeksymbol with sig. 'mmmm' on line 383.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \chemgreekmappingsymbol with sig. 'mm' on line 477.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \activatechemgreekmapping with sig. 'sm' on line 486.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \selectchemgreekmapping with sig. 'm' on line 491.
+.................................................
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count289
+\__mhchem_arrow_extPgfLength_skip=\skip56
+\mhchem@minispace@tmp=\skip57
+\mhchem@minibackspace@tmp=\skip58
+\mhchem@bondwidth=\skip59
+\mhchem@bondheight=\skip60
+\mhchem@smallbondwidth@tmpA=\skip61
+\mhchem@smallbondwidth@tmpB=\skip62
+\mhchem@smallbondwidth=\skip63
+\mhchem@bondtmp@minussidebearingleft=\skip64
+\mhchem@bondtmp@minussidebearingright=\skip65
+\l__mhchem_option_version_int=\count290
+\mhchem@option@minusmathsidebearingleft=\dimen257
+\mhchem@option@minusmathsidebearingright=\dimen258
+\mhchem@option@minustextsidebearingleft=\dimen259
+\mhchem@option@minustextsidebearingright=\dimen260
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen261
+\pgfdecoratedremainingdistance=\dimen262
+\pgfdecoratedinputsegmentcompleteddistance=\dimen263
+\pgfdecoratedinputsegmentremainingdistance=\dimen264
+\pgf@decorate@distancetomove=\dimen265
+\pgf@decorate@repeatstate=\count291
+\pgfdecorationsegmentamplitude=\dimen266
+\pgfdecorationsegmentlength=\dimen267
+)
+\tikz@lib@dec@box=\box56
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathmorphing.code.tex))
+Package hyperref Info: Option `colorlinks' set `true' on input line 24.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+\c@lecnum=\count292
+\c@theorem=\count293
+
+(./main.aux (./tex/syllabus.aux) (./tex/Lec01.aux) (./tex/Lec02.aux)
+(./tex/Lec03.aux
+
+LaTeX Warning: Label `idealgas' multiply defined.
+
+
+LaTeX Warning: Label `Avogadro' multiply defined.
+
+
+LaTeX Warning: Label `eqpartition' multiply defined.
+
+
+LaTeX Warning: Label `work3' multiply defined.
+
+
+LaTeX Warning: Label `isot' multiply defined.
+
+) (./tex/Lec04.aux
+
+LaTeX Warning: Label `idealgas' multiply defined.
+
+
+LaTeX Warning: Label `Avogadro' multiply defined.
+
+
+LaTeX Warning: Label `PV-micro' multiply defined.
+
+
+LaTeX Warning: Label `eqpartition' multiply defined.
+
+
+LaTeX Warning: Label `duw5' multiply defined.
+
+
+LaTeX Warning: Label `duw6' multiply defined.
+
+) (./tex/Lec05.aux) (./tex/Lec06.aux
+
+LaTeX Warning: Label `s1' multiply defined.
+
+) (./tex/Lec07.aux) (./tex/Lec08.aux
+
+LaTeX Warning: Label `entropy' multiply defined.
+
+
+LaTeX Warning: Label `entropy' multiply defined.
+
+
+LaTeX Warning: Label `entropy' multiply defined.
+
+
+LaTeX Warning: Label `entropy' multiply defined.
+
+) (./tex/Lec09.aux
+
+LaTeX Warning: Label `entropy' multiply defined.
+
+
+LaTeX Warning: Label `entropy' multiply defined.
+
+
+LaTeX Warning: Label `entropy' multiply defined.
+
+) (./tex/Lec10.aux
+
+LaTeX Warning: Label `entropy' multiply defined.
+
+
+LaTeX Warning: Label `entropy' multiply defined.
+
+
+LaTeX Warning: Label `entropy' multiply defined.
+
+) (./tex/Lec11.aux
+
+LaTeX Warning: Label `entropy' multiply defined.
+
+
+LaTeX Warning: Label `entropy' multiply defined.
+
+
+LaTeX Warning: Label `entropy' multiply defined.
+
+) (./tex/Lec12.aux) (./tex/Lec13.aux) (./tex/Lec14.aux) (./tex/Lec15.aux
+
+LaTeX Warning: Label `entropy' multiply defined.
+
+
+LaTeX Warning: Label `entropy' multiply defined.
+
+
+LaTeX Warning: Label `entropy' multiply defined.
+
+) (./tex/Lec16.aux) (./tex/Lec17.aux) (./tex/Lec18.aux) (./tex/Lec19.aux
+
+LaTeX Warning: Label `mub' multiply defined.
+
+
+LaTeX Warning: Label `mub' multiply defined.
+
+) (./tex/Lec20.aux) (./tex/Lec21.aux) (./tex/Lec22.aux) (./tex/Lec23.aux
+
+LaTeX Warning: Label `PV-micro' multiply defined.
+
+) (./tex/Lec24.aux) (./tex/Lec25.aux) (./tex/Lec26.aux) (./tex/Lec27.aux)
+(./tex/Lec28.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 103.
+
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count294
+\scratchdimen=\dimen268
+\scratchbox=\box57
+\nofMPsegments=\count295
+\nofMParguments=\count296
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count297
+\MPscratchDim=\dimen269
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
+\everyMPtoPDFconversion=\toks33
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box58
+Package hyperref Info: Link coloring ON on input line 103.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count300
+)
+LaTeX Info: Redefining \ref on input line 103.
+LaTeX Info: Redefining \pageref on input line 103.
+LaTeX Info: Redefining \nameref on input line 103.
+
+(./main.out) (./main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 126.
+)
+\CenteringLeftskip=\skip66
+\RaggedLeftLeftskip=\skip67
+\RaggedRightLeftskip=\skip68
+\CenteringRightskip=\skip69
+\RaggedLeftRightskip=\skip70
+\RaggedRightRightskip=\skip71
+\CenteringParfillskip=\skip72
+\RaggedLeftParfillskip=\skip73
+\RaggedRightParfillskip=\skip74
+\JustifyingParfillskip=\skip75
+\CenteringParindent=\skip76
+\RaggedLeftParindent=\skip77
+\RaggedRightParindent=\skip78
+\JustifyingParindent=\skip79
+)
+.................................................
+. chemgreek info: "mapping-activated"
+. 
+. Activating mapping `default' on line 103.
+.................................................
+\openout2 = `tex/syllabus.aux'.
+
+ (./tex/syllabus.tex
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 16.
+
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 16.
+
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 16.
+
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 16.
+
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 16.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 16.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 16.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 16.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 16.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 16.
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--31
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 34.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 36.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--47
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 59.
+
+Overfull \hbox (35.74062pt too wide) in paragraph at lines 70--72
+[][]$\OT1/cmtt/m/n/10 https : / / www . unlv . edu / sites / default / files / 
+page _ files / 27 / SyllabiContent-[]MinimumCriteria-[]2018-[]2019 .
+ []
+
+) [1
+
+
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+\openout2 = `tex/Lec01.aux'.
+
+
+(./tex/Lec01.tex
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 3.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1
+
+
+] [2]) [3]
+\openout2 = `tex/Lec02.aux'.
+
+ (./tex/Lec02.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 \section{Microstates and Macrostates}
+                                          pdfTeX warning (ext4): destination wi
+th the same identifier (name{equation.1.1}) has been already used, duplicate ig
+nored
+<to be read again> 
+                   \relax 
+l.13 \begin{equation}
+                      E = \sum_i n_i\epsilon_i \end{equation}pdfTeX warning (ex
+t4): destination with the same identifier (name{section.2}) has been already us
+ed, duplicate ignored
+<to be read again> 
+                   \relax 
+l.22 \section{Multiplicity in Einstein Solids}
+                                               [1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.72 ... two physical systems in thermal contact.}
+                                                   [2] [3]) [4]
+\openout2 = `tex/Lec03.aux'.
+
+
+(./tex/Lec03.texpdfTeX warning (ext4): destination with the same identifier (na
+me{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 \section{Some useful equations}
+                                     % Don't be this informal in your notes!pdf
+TeX warning (ext4): destination with the same identifier (name{equation.1.1}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.11 \begin{equation}
+                      \label{idealgas} PV = nRT = NkT \end{equation}pdfTeX warn
+ing (ext4): destination with the same identifier (name{equation.1.2}) has been 
+already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.12 \begin{equation}
+                      \label{Avogadro} N = n \times N_A \end{equation}pdfTeX wa
+rning (ext4): destination with the same identifier (name{equation.1.3}) has bee
+n already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.13 \begin{equation}
+                      \label{PV-micro} PV = Nm{\overline v_x^2} = NkT \end{e...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.4}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.14 \begin{equation}
+                      \label{eqpartition} U_\text{thermal} = N \cdot f \cdot...
+pdfTeX warning (ext4): destination with the same identifier (name{section.2}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.23 \section{First law of thermodynamics}
+                                          
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.3}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.29 \section{Compression Work and $PV$ diagram}
+                                                
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 29.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 29.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 29.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 29.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 29.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 29.
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.6}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32 \begin{equation}
+                      \label{work1} \Delta W = F \Delta{X} \end{equation}pdfTeX
+ warning (ext4): destination with the same identifier (name{equation.3.7}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.34 \begin{equation}
+                      \label{work2} \Delta W = P A \Delta{X} \end{equation}pdfT
+eX warning (ext4): destination with the same identifier (name{equation.3.8}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.36 \begin{equation}
+                      \label{work3} \Delta W = - P \Delta{V} \end{equation}
+[1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{equation.3.9
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 \begin{equation}
+                      \label{work4} W = -\int_{V_{i}}^{V_{f}} P(V)dV. \end{e...
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--81
+
+ []
+
+[2]pdfTeX warning (ext4): destination with the same identifier (name{equation.3
+.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.97 \begin{equation}
+                      \label{isot}pdfTeX warning (ext4): destination with the s
+ame identifier (name{equation.3.11}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.101 \begin{equation}
+                       \label{isot} [3]
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 133.
+
+LaTeX Font Info:    Try loading font information for OML+ppl on input line 133.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlppl.fd
+File: omlppl.fd 
+)
+LaTeX Font Info:    Font shape `OML/ppl/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 133.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 133.
+
+) [4]
+\openout2 = `tex/Lec04.aux'.
+
+ (./tex/Lec04.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 \section{Some useful equations}
+                                    % Don't be this informal in your notes!pdfT
+eX warning (ext4): destination with the same identifier (name{equation.1.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \begin{equation}
+                     \label{idealgas} PV = nRT = NkT \end{equation}pdfTeX warni
+ng (ext4): destination with the same identifier (name{equation.1.2}) has been a
+lready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5 \begin{equation}
+                     \label{Avogadro} N = n \times N_A \end{equation}pdfTeX war
+ning (ext4): destination with the same identifier (name{equation.1.3}) has been
+ already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6 \begin{equation}
+                     \label{PV-micro} PV = Nm{\overline v_x^2} = NkT \end{eq...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.4}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.7 \begin{equation}
+                     \label{eqpartition} U_\text{thermal} = N \cdot f \cdot ...
+pdfTeX warning (ext4): destination with the same identifier (name{section.2}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.9 \section{Compression Work}
+                              pdfTeX warning (ext4): destination with the same 
+identifier (name{equation.2.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.11 \begin{equation}
+                      \label{duw5} VT^{f/2} = \textrm{const}. \end{equation}
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--22
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.8}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27   \begin{equation}
+                        P(z) = P(0) \exp(-mgz/kT) \end{equation}pdfTeX warning 
+(ext4): destination with the same identifier (name{equation.2.9}) has been alre
+ady used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.30   \begin{equation}
+                        \frac{dT}{dP} = \frac{2}{f+2} \frac{T}{P} \end{equat...
+[1
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.3}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.34 \section{Heat Capacities}
+                              pdfTeX warning (ext4): destination with the same 
+identifier (name{equation.3.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.36   \begin{equation}
+                        C = \frac{Q}{\Delta{T}} = \frac{\Delta{U}-W}{\Delta{...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.11
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.38   \begin{equation}
+                        c = \frac{C}{m}. \end{equation}
+
+LaTeX Warning: Reference `eqpartition4' on page 4-2 undefined on input line 46.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.12
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.47   \begin{equation}
+                        C_V = \frac{\partial U}{\partial{T}}pdfTeX warning (ext
+4): destination with the same identifier (name{equation.3.13}) has been already
+ used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.52   \begin{equation}
+                        C_P = \frac{\partial (U-W)} {\partial{T}}pdfTeX warning
+ (ext4): destination with the same identifier (name{equation.3.14}) has been al
+ready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.55   \begin{equation}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.3.15}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.61   \begin{equation}
+                        C_P = C_V + Nk. \end{equation}
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 71--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--84
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.4}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.86 \section{Enthalpy}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.4.16}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.88 \begin{equation}
+                      H = U + PV \end{equation}pdfTeX warning (ext4): destinati
+on with the same identifier (name{equation.4.17}) has been already used, duplic
+ate ignored
+<to be read again> 
+                   \relax 
+l.90 \begin{equation}
+                      C_P = \bigg (\frac {\partial H}{\partial T} \bigg)_{P}.)
+[3]
+\openout2 = `tex/Lec05.aux'.
+
+ (./tex/Lec05.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 \section{Introduction}
+                           pdfTeX warning (ext4): destination with the same ide
+ntifier (name{section.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.23 ...ion{Combinatorics s and Two-state systems}
+                                                  
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--53
+
+ []
+
+[1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{section.3}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.65 \section{The Einstein Model of a Solid}
+                                            
+<imgs/flip.pdf, id=489, 578.16pt x 433.62pt>
+File: imgs/flip.pdf Graphic file (type pdf)
+ <use imgs/flip.pdf>
+Package pdftex.def Info: imgs/flip.pdf used on input line 107.
+(pdftex.def)             Requested size: 256.0748pt x 192.05052pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.108 ...n of $N$ in the game of flipping coins. }
+                                                  
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imgs/Einstein0.pdf, id=490, 578.16pt x 433.62pt>
+File: imgs/Einstein0.pdf Graphic file (type pdf)
+ <use imgs/Einstein0.pdf>
+Package pdftex.def Info: imgs/Einstein0.pdf used on input line 113.
+(pdftex.def)             Requested size: 256.0748pt x 192.05052pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [2] [3 <./imgs/flip.pdf> <./imgs/Einstein0.pdf
+
+pdfTeX warning: pdflatex (file ./imgs/Einstein0.pdf): PDF inclusion: multiple p
+dfs with page group included in a single page
+>]
+\openout2 = `tex/Lec06.aux'.
+
+ (./tex/Lec06.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.17 \section{Two Interacting Einstein Solids}
+                                              pdfTeX warning (ext4): destinatio
+n with the same identifier (name{figure.1}) has been already used, duplicate ig
+nored
+<to be read again> 
+                   \relax 
+l.34 ...s isolated from the rest of the universe.}
+                                                  
+Underfull \hbox (badness 10000) in paragraph at lines 18--36
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.44 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.49 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.55 \begin{equation}
+                     
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.2}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.75 \section{Stirling Approximation}
+                                      [1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{equation.2.5
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.82 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.87 \begin{equation}
+                      \int ^\infty _0 e^{-ax} dx = 1/a \end{equation}pdfTeX war
+ning (ext4): destination with the same identifier (name{equation.2.7}) has been
+ already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.89 \begin{equation}
+                      \int ^\infty _0 x^n e^{-ax} dx = n! a^{-(n+1)} \end{eq...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.8}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.92 \begin{equation}
+                     \label{s1}pdfTeX warning (ext4): destination with the same
+ identifier (name{equation.2.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.97 \begin{equation}
+                     \label{s2}pdfTeX warning (ext4): destination with the same
+ identifier (name{equation.2.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.102 \begin{equation}
+                      \label{s1}pdfTeX warning (ext4): destination with the sam
+e identifier (name{section.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.114 \section{Computer Programming}
+                                    
+<imgs/Einstein.pdf, id=561, 578.16pt x 433.62pt>
+File: imgs/Einstein.pdf Graphic file (type pdf)
+ <use imgs/Einstein.pdf>
+Package pdftex.def Info: imgs/Einstein.pdf used on input line 120.
+(pdftex.def)             Requested size: 341.43306pt x 256.07178pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.121 ...$N$ in two interacting Einstein solids. }
+                                                  
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imgs/Einstein2.pdf, id=562, 578.16pt x 433.62pt>
+File: imgs/Einstein2.pdf Graphic file (type pdf)
+ <use imgs/Einstein2.pdf>
+Package pdftex.def Info: imgs/Einstein2.pdf used on input line 128.
+(pdftex.def)             Requested size: 284.52756pt x 213.39536pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imgs/Stirling.pdf, id=565, 578.16pt x 433.62pt>
+File: imgs/Stirling.pdf Graphic file (type pdf)
+ <use imgs/Stirling.pdf>
+Package pdftex.def Info: imgs/Stirling.pdf used on input line 135.
+(pdftex.def)             Requested size: 227.62204pt x 170.71231pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.11
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.140 \begin{equation}
+                       \Gamma(n+1) = \int ^\infty _0 x^n e^{-x} dx, \end{equ...
+[2] <imgs/Stirling2.pdf, id=572, 578.16pt x 433.62pt>
+File: imgs/Stirling2.pdf Graphic file (type pdf)
+ <use imgs/Stirling2.pdf>
+Package pdftex.def Info: imgs/Stirling2.pdf used on input line 144.
+(pdftex.def)             Requested size: 170.71652pt x 128.03589pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [3 <./imgs/Einstein.pdf>] [4 <./imgs/Einstein2.pdf> <./imgs/Stirling.pdf
+
+pdfTeX warning: pdflatex (file ./imgs/Stirling.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./imgs/Stirling2.pdf
+
+pdfTeX warning: pdflatex (file ./imgs/Stirling2.pdf): PDF inclusion: multiple p
+dfs with page group included in a single page
+>]
+\openout2 = `tex/Lec07.aux'.
+
+ (./tex/Lec07.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 ...on{Calculate $\Omega$ for a Einstein Solid}
+                                                  
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Omega' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 4.
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.11 \begin{equation}
+                      \label{E0}pdfTeX warning (ext4): destination with the sam
+e identifier (name{equation.1.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.18 \begin{equation}
+                      \label{E1}pdfTeX warning (ext4): destination with the sam
+e identifier (name{equation.1.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.28 \begin{equation}
+                      \label{E2}pdfTeX warning (ext4): destination with the sam
+e identifier (name{equation.1.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.34 \begin{equation}
+                      \label{E3}pdfTeX warning (ext4): destination with the sam
+e identifier (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.40 \begin{equation}
+                      \label{E4}pdfTeX warning (ext4): destination with the sam
+e identifier (name{section.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 ...alculate $\Omega$ for two Einstein Solids}
+                                                  
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 45.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Omega' on input line 45.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 45.
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.6}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.47 \begin{equation}
+                      \label{E5}pdfTeX warning (ext4): destination with the sam
+e identifier (name{equation.2.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.52 \begin{equation}
+                      \label{E6} [1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{equation.2.8
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.58 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.63 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.68 \begin{equation}
+                      \label{E7}pdfTeX warning (ext4): destination with the sam
+e identifier (name{equation.2.11}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.73 \begin{equation}
+                      \label{E8}pdfTeX warning (ext4): destination with the sam
+e identifier (name{equation.2.12}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.83 \begin{equation}
+                      \label{E9}pdfTeX warning (ext4): destination with the sam
+e identifier (name{equation.2.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.87 \begin{equation}
+                     
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]pdfTeX warning (ext4): destination with the same identifier (name{equation.
+2.14}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.123 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{section.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.137 \section{Ideal Gas}
+                         pdfTeX warning (ext4): destination with the same ident
+ifier (name{equation.3.15}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.142 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.16}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.150 \begin{equation}
+                       \Delta{x}\Delta{p_x} = h. \end{equation} [3]pdfTeX warni
+ng (ext4): destination with the same identifier (name{equation.3.17}) has been 
+already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.153 \begin{equation}
+                       \Omega_{1D} = \frac{L}{\Delta{x}} \frac{L_p}{\Delta{p...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.18
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.155 \begin{equation}
+                       \Omega_1 = \frac{VV_p}{h^3}. \end{equation}pdfTeX warnin
+g (ext4): destination with the same identifier (name{equation.3.19}) has been a
+lready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.157 \begin{equation}
+                      
+Underfull \hbox (badness 10000) in paragraph at lines 193--195
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.4}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.203 ...ix: Area of high-dimensional Hypersphere}
+                                                   [4]) [5]
+\openout2 = `tex/Lec08.aux'.
+
+ (./tex/Lec08.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5 \section{Entropy}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6 \begin{equation}
+                     \label{entropy}pdfTeX warning (ext4): destination with the
+ same identifier (name{section.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 \section{Entropy of Einstein Solid}
+                                        pdfTeX warning (ext4): destination with
+ the same identifier (name{equation.2.2}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \relax 
+l.11 \begin{equation}
+                      \label{entropy}pdfTeX warning (ext4): destination with th
+e same identifier (name{section.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.28 \section{Entropy of an Ideal Gas}
+                                      pdfTeX warning (ext4): destination with t
+he same identifier (name{equation.3.4}) has been already used, duplicate ignore
+d
+<to be read again> 
+                   \relax 
+l.29 \begin{equation}
+                      \label{entropy}
+Overfull \hbox (43.19438pt too wide) in paragraph at lines 60--61
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.4}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.64 \section{Mixing Entropy of an Ideal Gas}
+                                              [1
+
+
+]
+Overfull \hbox (43.19438pt too wide) in paragraph at lines 90--91
+ [][] 
+ []
+
+[2]) [3]
+\openout2 = `tex/Lec09.aux'.
+
+ (./tex/Lec09.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.9 ...xpress Temperature with respect to Entropy}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.1.1}) has been already used, dupl
+icate ignored
+<to be read again> 
+                   \relax 
+l.11 \begin{equation}
+                      \label{entropy}
+<imgs/Einstein3.pdf, id=808, 578.16pt x 433.62pt>
+File: imgs/Einstein3.pdf Graphic file (type pdf)
+ <use imgs/Einstein3.pdf>
+Package pdftex.def Info: imgs/Einstein3.pdf used on input line 19.
+(pdftex.def)             Requested size: 341.43306pt x 256.07178pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.20 ... ($N_A$=300, $N_B$=200, $q$(total)=100). }
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.1.2}) has been already used, dupl
+icate ignored
+<to be read again> 
+                   \relax 
+l.26 \begin{equation}
+                      \label{entropy}pdfTeX warning (ext4): destination with th
+e same identifier (name{equation.1.3}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.31 \begin{equation}
+                      \label{entropy}pdfTeX warning (ext4): destination with th
+e same identifier (name{equation.1.4}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.40 \begin{equation}
+                      [1
+
+
+ <./imgs/Einstein3.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.2}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.52 \section{Einstein Solid}
+                             pdfTeX warning (ext4): destination with the same i
+dentifier (name{equation.2.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.54 \begin{equation}
+                      S = Nk[\text{ln}(q/N)+1] = Nk\text{ln}U - Nk\text{ln}(...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.6}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.55 \begin{equation}
+                      T = (\frac {\partial{S}} {\partial{U}})^{-1} = (\frac{...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.7}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.56 \begin{equation}
+                      U = NkT \end{equation}pdfTeX warning (ext4): destination 
+with the same identifier (name{section.3}) has been already used, duplicate ign
+ored
+<to be read again> 
+                   \relax 
+l.59 \section{Ideal Gas}
+                        pdfTeX warning (ext4): destination with the same identi
+fier (name{equation.3.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.61 \begin{equation}
+                      S = Nk\text{ln}V + 3/2Nk\text{ln}U - Nk\text{ln}(f(N))...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.9}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.62 \begin{equation}
+                      T = (\frac {\partial{S}} {\partial{U}}) ^{-1} = ~~~~~\...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.10
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.63 \begin{equation}
+                      U = 3/2NkT \end{equation}pdfTeX warning (ext4): destinati
+on with the same identifier (name{section.4}) has been already used, duplicate 
+ignored
+<to be read again> 
+                   \relax 
+l.66 \section{Measuring Entropy}
+                                pdfTeX warning (ext4): destination with the sam
+e identifier (name{equation.4.12}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.68 \begin{equation}
+                      dS = \frac{C_V}{T}   ~~~~~~~~~~~~~~~~~ \text{(constant...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.4.13
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.69 \begin{equation}
+                      \Delta{S} = S_f-S_i = \int^{T_f}_{T_i} \frac{C_V}{T} d...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.4.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.70 \begin{equation}
+                      \Delta{S} = \int^B_A \frac{C_V}{T} dT \end{equation}
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 72--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--78
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.5}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.79 \section{Microscopic view}
+                               pdfTeX warning (ext4): destination with the same
+ identifier (name{figure.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.92 ... between two interacting Einstein solids.}
+                                                  ) [3]
+\openout2 = `tex/Lec10.aux'.
+
+ (./tex/Lec10.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5 \section{Mechanical Equilibrium and Pressure}
+                                                 pdfTeX warning (ext4): destina
+tion with the same identifier (name{figure.1}) has been already used, duplicate
+ ignored
+<to be read again> 
+                   \relax 
+l.20 ...chematic pressure flow between two gases.}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.1.1}) has been already used, dupl
+icate ignored
+<to be read again> 
+                   \relax 
+l.24 \begin{equation}
+                      \label{entropy}pdfTeX warning (ext4): destination with th
+e same identifier (name{equation.1.2}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.30 \begin{equation}
+                      \label{entropy}pdfTeX warning (ext4): destination with th
+e same identifier (name{equation.1.3}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.37 \begin{equation}
+                      \label{entropy}pdfTeX warning (ext4): destination with th
+e same identifier (name{equation.1.4}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.43 \begin{equation}
+                      S = Nk\text{ln}V + 3/2Nk\text{ln}U - Nk\text{ln}(f(N))...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.44 \begin{equation}
+                      P = T(\frac {\partial{S}} {\partial{V}})  = \frac{NKT}...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.6}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 \begin{equation}
+                      PV = NkT \end{equation}pdfTeX warning (ext4): destination
+ with the same identifier (name{section.2}) has been already used, duplicate ig
+nored
+<to be read again> 
+                   \relax 
+l.48 \section{Thermodynamic Identity}
+                                      [1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{equation.2.7
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.56 \begin{equation}
+                      \Delta{S} = (\frac {\Delta{S}}{\Delta{U}})\Delta{U} + ...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.8}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.58 \begin{equation}
+                      dS = (\frac{\partial S}{\partial U})dU + (\frac{\parti...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.9}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.59 \begin{equation}
+                      dS = \frac{dU}{T} + \frac{PdV}{T}  \end{equation}pdfTeX w
+arning (ext4): destination with the same identifier (name{equation.2.10}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.60 \begin{equation}
+                      TdS = dU + PdV  \end{equation}pdfTeX warning (ext4): dest
+ination with the same identifier (name{equation.2.11}) has been already used, d
+uplicate ignored
+<to be read again> 
+                   \relax 
+l.61 \begin{equation}
+                      dU = TdS - PdV  \end{equation}pdfTeX warning (ext4): dest
+ination with the same identifier (name{equation.2.12}) has been already used, d
+uplicate ignored
+<to be read again> 
+                   \relax 
+l.71 \begin{equation}
+                      (\frac{\partial S}{\partial U})dU + (\frac{\partial S}...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.13
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.72 \begin{equation}
+                      dU = -PdV \end{equation}pdfTeX warning (ext4): destinatio
+n with the same identifier (name{equation.2.14}) has been already used, duplica
+te ignored
+<to be read again> 
+                   \relax 
+l.74 \begin{equation}
+                      \Delta{S} = S_f-S_i = \int^{T_f}_{T_i} \frac{C_P}{T} d...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.15
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.78 \begin{equation}
+                      \Delta{S} = C_V\text{ln}\frac{P_B}{P_A} + C_P\text{ln}...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.16
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.81 \begin{equation}
+                      \Delta{S} = \frac{Q}{T} ~~~~~~~~\text{quasistatic}\end...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.17
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.82 \begin{equation}
+                      \Delta{S} > \frac{Q}{T} ~~~~~~~~\text{in practice}\end...
+[2]pdfTeX warning (ext4): destination with the same identifier (name{section.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.91 \section{Homework}
+                       ) [3]
+\openout2 = `tex/Lec11.aux'.
+
+ (./tex/Lec11.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Chemical Potential}
+                                pdfTeX warning (ext4): destination with the sam
+e identifier (name{figure.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.23 ...chematic particle flow between two gases.}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.1.1}) has been already used, dupl
+icate ignored
+<to be read again> 
+                   \relax 
+l.30 \begin{equation}
+                      \label{entropy}pdfTeX warning (ext4): destination with th
+e same identifier (name{equation.1.2}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.37 \begin{equation}
+                      \label{entropy} [1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{section.2}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.50 ...on{The Generalized Thermodynamic Identity}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.2.3}) has been already used, dupl
+icate ignored
+<to be read again> 
+                   \relax 
+l.52 \begin{equation}
+                      dS = (\frac{\partial S}{\partial U})dUpdfTeX warning (ext
+4): destination with the same identifier (name{equation.2.4}) has been already 
+used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.56 \begin{equation}
+                      dS = \frac{1}{T}dUpdfTeX warning (ext4): destination with
+ the same identifier (name{equation.2.5}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \relax 
+l.60 \begin{equation}
+                      dU = TdS - PdV  + \mu dN\end{equation}pdfTeX warning (ext
+4): destination with the same identifier (name{equation.2.6}) has been already 
+used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.66 \begin{equation}
+                      dU = TdS - PdV  + \sum_{\substack{i}} \mu_i dN_i\end{e...
+pdfTeX warning (ext4): destination with the same identifier (name{section.3}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.69 ...ion{Chemical potential for Einstein Solid}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.3.7}) has been already used, dupl
+icate ignored
+<to be read again> 
+                   \relax 
+l.93 \begin{equation}
+                      \mu = (\frac{\partial U}{\partial N})_{S,V}  \end{equa...
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.4}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.96 \section{Chemical potential for ideal gas}
+                                                [2]pdfTeX warning (ext4): desti
+nation with the same identifier (name{section.5}) has been already used, duplic
+ate ignored
+<to be read again> 
+                   \relax 
+l.126 \section{Exercise}
+                        
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.6}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.147 \section{Homework}
+                        ) [3]
+\openout2 = `tex/Lec12.aux'.
+
+ (./tex/Lec12.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 \section{Two-state paramagnet}
+                                  pdfTeX warning (ext4): destination with the s
+ame identifier (name{figure.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25 ...he up date and $\mu$B for the down state.}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.1}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.25 ...he up date and $\mu$B for the down state.}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.1.1}) has been already used, dupl
+icate ignored
+<to be read again> 
+                   \relax 
+l.31 \begin{equation}
+                      \label{eq1}pdfTeX warning (ext4): destination with the sa
+me identifier (name{equation.1.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.36 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.41 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{section.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 \section{Numerical results}
+                                 [1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{section.3}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.58 \section{Analytic solution}
+                                pdfTeX warning (ext4): destination with the sam
+e identifier (name{equation.3.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.60 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.69 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.75 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.80 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.84 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.89 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.95 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{section.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.101 \section{Homework}
+                        ) [2]
+\openout2 = `tex/Lec13.aux'.
+
+ (./tex/Lec13.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Heat Engines and Refrigerators}
+                                            
+Overfull \hbox (36.59158pt too wide) in paragraph at lines 35--36
+ [][] 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.36 ...ion{The schemes of cold and heat engines.}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.1.1}) has been already used, dupl
+icate ignored
+<to be read again> 
+                   \relax 
+l.40 \begin{equation}
+                      e = \frac{W}{Q_h} \end{equation}pdfTeX warning (ext4): de
+stination with the same identifier (name{equation.1.2}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \relax 
+l.42 \begin{equation}
+                      Q_h = Q_c + W \end{equation}pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.1.3}) has been already used, dupl
+icate ignored
+<to be read again> 
+                   \relax 
+l.43 \begin{equation}
+                      e = \frac{Q_h-Q_c}{Q_h} = 1 - \frac{Q_c}{Q_h} \end{equ...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.4}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.46 \begin{equation}
+                         S2 >= S1              ~~~~~~\rightarrow~~~~~~~pdfTeX w
+arning (ext4): destination with the same identifier (name{equation.1.5}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.51 \begin{equation}
+                      e<=1-\frac{T_c}{T_h} \end{equation} [1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{section.2}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.54 \section{Refrigerator}
+                           pdfTeX warning (ext4): destination with the same ide
+ntifier (name{equation.2.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.56 \begin{equation}
+                      e = \frac{Q_c}{W} \end{equation}pdfTeX warning (ext4): de
+stination with the same identifier (name{equation.2.7}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \relax 
+l.58 \begin{equation}
+                      Q_h = Q_c + W \end{equation}pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.2.8}) has been already used, dupl
+icate ignored
+<to be read again> 
+                   \relax 
+l.59 \begin{equation}
+                      e = \frac{Q_c}{Q_h-Q_c} = \frac{1}{Q_h/Q_c-1} \end{equ...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.9}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.62 \begin{equation}
+                         S2 >= S1              ~~~~~~\rightarrow~~~~~~~pdfTeX w
+arning (ext4): destination with the same identifier (name{equation.2.10}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.67 \begin{equation}
+                      e<=\frac{1}{T_h/T_c-1} \end{equation}pdfTeX warning (ext4
+): destination with the same identifier (name{section.3}) has been already used
+, duplicate ignored
+<to be read again> 
+                   \relax 
+l.69 \section{To calculate the efficiency}
+                                          
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.4}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.83 \section{The Carnot Cycle}
+                               pdfTeX warning (ext4): destination with the same
+ identifier (name{figure.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.98 \caption{The Carnot cycle.}
+                                 [2]
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.5}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.108 \section{Homework}
+                        ) [3]
+\openout2 = `tex/Lec14.aux'.
+
+ (./tex/Lec14.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6 \section{Real Heat Engines}
+                               pdfTeX warning (ext4): destination with the same
+ identifier (name{figure.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.38 \caption{The Otto cycle and Diesel cycle.}
+                                               pdfTeX warning (ext4): destinati
+on with the same identifier (name{equation.1.1}) has been already used, duplica
+te ignored
+<to be read again> 
+                   \relax 
+l.42 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.47 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{figure.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.63 \caption{The idealized Stirling cycle.}
+                                            
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+[1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{section.2}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.70 ...tion{Steam Engines and Real Refrigerators}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.3}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.106 ...e Rankine cycle and Refrigeration cycle.}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.2.3}) has been already used, dupl
+icate ignored
+<to be read again> 
+                   \relax 
+l.109 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.113 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{section.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.117 \section{Homework}
+                        ) [2] [3]
+\openout2 = `tex/Lec15.aux'.
+
+ (./tex/Lec15.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 \section{Outline}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{section.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 \section{Free Energy}
+                          pdfTeX warning (ext4): destination with the same iden
+tifier (name{equation.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.13 \begin{equation}
+                      \label{entropy}pdfTeX warning (ext4): destination with th
+e same identifier (name{equation.2.2}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.20 \begin{equation}
+                      \label{entropy}pdfTeX warning (ext4): destination with th
+e same identifier (name{equation.2.3}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.24 \begin{equation}
+                      \label{entropy}pdfTeX warning (ext4): destination with th
+e same identifier (name{section.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.48 \section{How to measure $\Delta{G}$}
+                                         
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 48.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Delta' on input line 48.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 48.
+
+[1
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.4}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.60 \section{Electrochemical Reactions}
+                                        
+Underfull \hbox (badness 10000) in paragraph at lines 61--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--73
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.5}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.93 \section{Thermodynamic Identities}
+                                        [2]pdfTeX warning (ext4): destination w
+ith the same identifier (name{equation.5.10}) has been already used, duplicate 
+ignored
+<to be read again> 
+                   \relax 
+l.123 \begin{equation}
+                      \mu  = -(\frac{\partial {G}}{\partial {N}})_{T,P} \end...
+pdfTeX warning (ext4): destination with the same identifier (name{section.6}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.126 \section{Maxwell Relation}
+                                 [3]) [4]
+\openout2 = `tex/Lec16.aux'.
+
+ (./tex/Lec16.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 ...{Free Energy as a Force toward Equilibrium}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.1.1}) has been already used, dupl
+icate ignored
+<to be read again> 
+                   \relax 
+l.9 \begin{equation}
+                     dS_\text{total} = dS + dS_R \end{equation}pdfTeX warning (
+ext4): destination with the same identifier (name{equation.1.2}) has been alrea
+dy used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.12 \begin{equation}
+                      dS = \frac{1}{T}dU + \frac{P}{T}dV - \frac{\mu}{T}dN \...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.15 \begin{equation}
+                      dS_\text{total} = dS + \frac{1}{T}dU_R \end{equation}pdfT
+eX warning (ext4): destination with the same identifier (name{equation.1.4}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.17 \begin{equation}
+                      dS_\text{total} = dS - \frac{1}{T}dU \end{equation}pdfTeX
+ warning (ext4): destination with the same identifier (name{equation.1.5}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.19 \begin{equation}
+                      dS_\text{total} = -\frac{1}{T}(dU-TdS) = -\frac{1}{T}d...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.6}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.23 \begin{equation}
+                      dS_\text{total} = -\frac{1}{T}(dU-TdS+PdV) = -\frac{1}...
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.2}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.34 \section{Various Phase Transitions}
+                                         [1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{equation.2.7
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.50 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.54 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{section.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.60 \section{The Clausius-Clapeyron Relation}
+                                              pdfTeX warning (ext4): destinatio
+n with the same identifier (name{equation.3.9}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.62 \begin{equation}
+                      G_l = G_g \end{equation}pdfTeX warning (ext4): destinatio
+n with the same identifier (name{equation.3.10}) has been already used, duplica
+te ignored
+<to be read again> 
+                   \relax 
+l.65 \begin{equation}
+                      dG_l = dG_g \end{equation}pdfTeX warning (ext4): destinat
+ion with the same identifier (name{equation.3.11}) has been already used, dupli
+cate ignored
+<to be read again> 
+                   \relax 
+l.67 \begin{equation}
+                      -S_ldT + V_ldP = -S_gdT + V_gdP \end{equation}pdfTeX warn
+ing (ext4): destination with the same identifier (name{equation.3.12}) has been
+ already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.70 \begin{equation}
+                      \frac{dP}{dT} = \frac{S_g-S_l}{V_g-V_l} \end{equation}pdf
+TeX warning (ext4): destination with the same identifier (name{equation.3.13}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.74 \begin{equation}
+                      \frac{dP}{dT} = \frac{L}{T\Delta{V}} \end{equation}
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+
+ []
+
+[2]pdfTeX warning (ext4): destination with the same identifier (name{section.4}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.87 \section{Homework}
+                       
+Underfull \hbox (badness 10000) in paragraph at lines 88--96
+
+ []
+
+[3] <imgs/water_phase_diagram_2.png, id=1018, 752.8125pt x 513.92pt>
+File: imgs/water_phase_diagram_2.png Graphic file (type png)
+
+<use imgs/water_phase_diagram_2.png>
+Package pdftex.def Info: imgs/water_phase_diagram_2.png used on input line 99.
+(pdftex.def)             Requested size: 341.43306pt x 233.08899pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.100 \caption{The Phase diagram for H$_2$O. }
+                                              pdfTeX warning (ext4): destinatio
+n with the same identifier (name{figure.2}) has been already used, duplicate ig
+nored
+<to be read again> 
+                   \relax 
+l.111 \caption{Graphite versus diamond.}
+                                        ) [4 <./imgs/water_phase_diagram_2.png>
+]
+\openout2 = `tex/Lec17.aux'.
+
+ (./tex/Lec17.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 \section{The van der Waals Model}
+                                     pdfTeX warning (ext4): destination with th
+e same identifier (name{equation.1.1}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.14 \begin{equation}
+                     
+Underfull \hbox (badness 10000) in paragraph at lines 24--27
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.29 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.41 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.46 \begin{equation}
+                      [1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.50 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.55 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.73 \begin{equation}
+                      <imgs/vdW.pdf, id=1033, 433.62pt x 289.08pt>
+File: imgs/vdW.pdf Graphic file (type pdf)
+
+<use imgs/vdW.pdf>
+Package pdftex.def Info: imgs/vdW.pdf used on input line 88.
+(pdftex.def)             Requested size: 256.0748pt x 170.72333pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.89 ...ose to the phase transition temperature. }
+                                                  
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imgs/MaxWell.pdf, id=1034, 433.62pt x 289.08pt>
+File: imgs/MaxWell.pdf Graphic file (type pdf)
+ <use imgs/MaxWell.pdf>
+Package pdftex.def Info: imgs/MaxWell.pdf used on input line 95.
+(pdftex.def)             Requested size: 256.0748pt x 170.72333pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.96 ...corresponding isotherm is shown at above.}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.2}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.96 ...corresponding isotherm is shown at above.}
+                                                  
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imgs/MaxWell-f.pdf, id=1035, 433.62pt x 289.08pt>
+File: imgs/MaxWell-f.pdf Graphic file (type pdf)
+ <use imgs/MaxWell-f.pdf>
+Package pdftex.def Info: imgs/MaxWell-f.pdf used on input line 101.
+(pdftex.def)             Requested size: 256.0748pt x 170.72333pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.102 ...orresponding isotherm is shown at above.}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.3}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.102 ...orresponding isotherm is shown at above.}
+                                                  
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [2] [3 <./imgs/vdW.pdf> <./imgs/MaxWell.pdf
+
+pdfTeX warning: pdflatex (file ./imgs/MaxWell.pdf): PDF inclusion: multiple pdf
+s with page group included in a single page
+>] [4 <./imgs/MaxWell-f.pdf>]
+\openout2 = `tex/Lec18.aux'.
+
+ (./tex/Lec18.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Free Energy of Mixture}
+                                    
+<imgs/Ideal-Mixture.pdf, id=1118, 433.62pt x 289.08pt>
+File: imgs/Ideal-Mixture.pdf Graphic file (type pdf)
+
+<use imgs/Ideal-Mixture.pdf>
+Package pdftex.def Info: imgs/Ideal-Mixture.pdf used on input line 14.
+(pdftex.def)             Requested size: 341.43306pt x 227.63405pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.15 ... only term to contribute to $\Delta{G}$. }
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.1.1}) has been already used, dupl
+icate ignored
+<to be read again> 
+                   \relax 
+l.22 \begin{equation}
+                      [1
+
+
+ <./imgs/Ideal-Mixture.pdf>]pdfTeX warning (ext4): destination with the same id
+entifier (name{equation.1.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.37 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.44 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.49 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.57 \begin{equation}
+                     
+<imgs/NonIdeal-Mixture.pdf, id=1156, 433.62pt x 289.08pt>
+File: imgs/NonIdeal-Mixture.pdf Graphic file (type pdf)
+
+<use imgs/NonIdeal-Mixture.pdf>
+Package pdftex.def Info: imgs/NonIdeal-Mixture.pdf used on input line 63.
+(pdftex.def)             Requested size: 341.43306pt x 227.63405pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.65 a competition between $U$ and $TS$.}
+                                         pdfTeX warning (ext4): destination wit
+h the same identifier (name{figure.2}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.65 a competition between $U$ and $TS$.}
+                                         
+<imgs/two-solids.pdf, id=1158, 433.62pt x 289.08pt>
+File: imgs/two-solids.pdf Graphic file (type pdf)
+ <use imgs/two-solids.pdf>
+Package pdftex.def Info: imgs/two-solids.pdf used on input line 73.
+(pdftex.def)             Requested size: 284.52756pt x 189.69504pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.76 This is called \textbf{solubility gap}.}
+                                             pdfTeX warning (ext4): destination
+ with the same identifier (name{figure.3}) has been already used, duplicate ign
+ored
+<to be read again> 
+                   \relax 
+l.76 This is called \textbf{solubility gap}.}
+                                              [2 <./imgs/NonIdeal-Mixture.pdf>]
+pdfTeX warning (ext4): destination with the same identifier (name{section.2}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.80 \section{Phase diagram of a Miscible Mixture}
+                                                  
+<imgs/air.pdf, id=1207, 433.62pt x 289.08pt>
+File: imgs/air.pdf Graphic file (type pdf)
+ <use imgs/air.pdf>
+Package pdftex.def Info: imgs/air.pdf used on input line 92.
+(pdftex.def)             Requested size: 284.52756pt x 189.69504pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.93 \caption{The Phase diagram of air mixture.}
+                                                pdfTeX warning (ext4): destinat
+ion with the same identifier (name{section.3}) has been already used, duplicate
+ ignored
+<to be read again> 
+                   \relax 
+l.97 \section{Phase Diagram of Eutectic Mixture}
+                                                 [3 <./imgs/two-solids.pdf>]
+
+pdfTeX warning: pdflatex (file ./imgs/Eutectic.pdf): PDF inclusion: found PDF v
+ersion <1.6>, but at most version <1.5> allowed
+<imgs/Eutectic.pdf, id=1241, 411.5375pt x 263.98625pt>
+File: imgs/Eutectic.pdf Graphic file (type pdf)
+ <use imgs/Eutectic.pdf>
+Package pdftex.def Info: imgs/Eutectic.pdf used on input line 109.
+(pdftex.def)             Requested size: 284.52756pt x 182.51323pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.110 \caption{The Phase diagram of A-B mixture.}
+                                                 ) [4 <./imgs/air.pdf> <./imgs/
+Eutectic.pdf>]
+\openout2 = `tex/Lec19.aux'.
+
+ (./tex/Lec19.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5 \section{Solvent and Solute}
+                                pdfTeX warning (ext4): destination with the sam
+e identifier (name{equation.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.8 \begin{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{equation.1.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.15 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.20 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.24 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.30 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.35 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.40 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.43 \begin{equation}
+                      [1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{section.2}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.52 \section{Osmotic Pressure}
+                               pdfTeX warning (ext4): destination with the same
+ identifier (name{equation.2.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.56 \begin{equation}
+                     \label{mub}pdfTeX warning (ext4): destination with the sam
+e identifier (name{equation.2.11}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.61 \begin{equation}
+                     \label{mub}pdfTeX warning (ext4): destination with the sam
+e identifier (name{equation.2.12}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.65 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.71 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{section.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.77 \section{Boiling and Freezing Points}
+                                          pdfTeX warning (ext4): destination wi
+th the same identifier (name{equation.3.14}) has been already used, duplicate i
+gnored
+<to be read again> 
+                   \relax 
+l.80 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.15}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.85 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.16}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.90 \begin{equation}
+                      [2]pdfTeX warning (ext4): destination with the same ident
+ifier (name{equation.3.17}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.94 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.18}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.98 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.19}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.104 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.20}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.109 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.21}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.114 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.22}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.119 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.23}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.122 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.24}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.128 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{figure.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.155 ...educes the boiling point of the solvent.}
+                                                  
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [3] [4]
+\openout2 = `tex/Lec20.aux'.
+
+ (./tex/Lec20.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 ...n{Gibbs Free Energy and Chemical Potential}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.1.1}) has been already used, dupl
+icate ignored
+<to be read again> 
+                   \relax 
+l.6 \begin{equation}
+                    \mu  = (\frac{\partial {G}}{\partial {N}})_{T,P} \end{eq...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.7 \begin{equation}
+                    \mu  = (\frac{\partial {F}}{\partial {N}})_{T,V} \end{eq...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 \begin{equation}
+                      G = N\mu \end{equation}pdfTeX warning (ext4): destination
+ with the same identifier (name{equation.1.4}) has been already used, duplicate
+ ignored
+<to be read again> 
+                   \relax 
+l.12 \begin{equation}
+                      F = N\mu \end{equation}pdfTeX warning (ext4): destination
+ with the same identifier (name{equation.1.5}) has been already used, duplicate
+ ignored
+<to be read again> 
+                   \relax 
+l.23 \begin{equation}
+                     G  = N_1\mu_1 + N_2\mu_2 + .... = \sum_i N_i\mu_i \end{...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.6}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.26 \begin{equation}
+                     \frac{\partial \mu}{\partial P} = \frac{1}{N} \frac{\pa...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.7}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27 \begin{equation}
+                      \mu(T,P) - \mu(T,P0) = kT \text{ln}(P/P0) \end{equation}p
+dfTeX warning (ext4): destination with the same identifier (name{section.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.30 \section{Chemical Equilibrium}
+                                    [1
+
+
+]
+<imgs/Reaction.pdf, id=1313, 433.62pt x 289.08pt>
+File: imgs/Reaction.pdf Graphic file (type pdf)
+ <use imgs/Reaction.pdf>
+Package pdftex.def Info: imgs/Reaction.pdf used on input line 42.
+(pdftex.def)             Requested size: 284.52756pt x 189.69504pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.43 ... of the extent of the chemical reaction. }
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.2.8}) has been already used, dupl
+icate ignored
+<to be read again> 
+                   \relax 
+l.48 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{section.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.62 \section{Nitrogen Fixation}
+                                pdfTeX warning (ext4): destination with the sam
+e identifier (name{equation.3.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.66 \begin{equation}
+                     
+Underfull \vbox (badness 1430) has occurred while \output is active []
+
+ [2 <./imgs/Reaction.pdf>]pdfTeX warning (ext4): destination with the same iden
+tifier (name{equation.3.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.71 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.11}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.76 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.12}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.80 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{section.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.86 \section{van't Hoff equation}
+                                  pdfTeX warning (ext4): destination with the s
+ame identifier (name{equation.4.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.88 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{section.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.96 \section{Homework}
+                       ) [3]
+\openout2 = `tex/Lec21.aux'.
+
+ (./tex/Lec21.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Outline}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{section.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 \section{The Boltzmann Factor}
+                                   pdfTeX warning (ext4): destination with the 
+same identifier (name{equation.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.15 \begin{equation}
+                      \frac{P(s_2)}{P(s_1)} = \frac{\Omega_R(s_2)}{\Omega_R(...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.19 \begin{equation}
+                      \frac{P(s_2)}{P(s_1)} = \frac{e^{S_R(s2)/k}}{e^{S_R(s1...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.22 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.37 \begin{equation}
+                      [1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{equation.2.7
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.43 \begin{equation}
+                      <imgs/Boltzmann.pdf, id=1360, 433.62pt x 289.08pt>
+File: imgs/Boltzmann.pdf Graphic file (type pdf)
+
+<use imgs/Boltzmann.pdf>
+Package pdftex.def Info: imgs/Boltzmann.pdf used on input line 50.
+(pdftex.def)             Requested size: 284.52756pt x 189.69504pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.51 ...ally; (2) high $T$ slows down the decay. }
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.1}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.51 ...ally; (2) high $T$ slows down the decay. }
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{section.3}) has been already used, duplica
+te ignored
+<to be read again> 
+                   \relax 
+l.56 \section{Partition Function}
+                                 pdfTeX warning (ext4): destination with the sa
+me identifier (name{equation.3.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.58 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.63 \begin{equation}
+                      <imgs/Partition-2s.pdf, id=1361, 433.62pt x 289.08pt>
+File: imgs/Partition-2s.pdf Graphic file (type pdf)
+
+<use imgs/Partition-2s.pdf>
+Package pdftex.def Info: imgs/Partition-2s.pdf used on input line 78.
+(pdftex.def)             Requested size: 284.52756pt x 189.69504pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.79 ...on function with respect to temperature. }
+                                                  
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [2 <./imgs/Boltzmann.pdf>] [3 <./imgs/Partition-2s.pdf>]
+\openout2 = `tex/Lec22.aux'.
+
+ (./tex/Lec22.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.9 \section{Averaged Values}
+                             pdfTeX warning (ext4): destination with the same i
+dentifier (name{equation.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.13 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.18 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.26 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.30 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{section.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.35 \section{Rotation of Diatomic Molecules}
+                                             pdfTeX warning (ext4): destination
+ with the same identifier (name{equation.2.5}) has been already used, duplicate
+ ignored
+<to be read again> 
+                   \relax 
+l.37 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.43 \begin{equation}
+                      <imgs/Rotation.pdf, id=1417, 433.62pt x 289.08pt>
+File: imgs/Rotation.pdf Graphic file (type pdf)
+
+<use imgs/Rotation.pdf>
+Package pdftex.def Info: imgs/Rotation.pdf used on input line 52.
+(pdftex.def)             Requested size: 284.52756pt x 189.69504pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.53 ...tion sum for two different temperatures. }
+                                                  
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.7}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.57 \begin{equation}
+                      [1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{equation.2.8
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.64 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.72 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{section.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.79 \section{Equipartition Theorem}
+                                    pdfTeX warning (ext4): destination with the
+ same identifier (name{equation.3.10}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.84 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.11}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.89 \begin{equation}
+                      [2 <./imgs/Rotation.pdf>]pdfTeX warning (ext4): destinati
+on with the same identifier (name{equation.3.12}) has been already used, duplic
+ate ignored
+<to be read again> 
+                   \relax 
+l.94 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.100 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.14}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.105 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.15}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.110 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.16}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.116 \begin{equation}
+                      ) [3]
+\openout2 = `tex/Lec23.aux'.
+
+ (./tex/Lec23.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.9 \section{Maxwell Speed Distribution}
+                                        pdfTeX warning (ext4): destination with
+ the same identifier (name{equation.1.1}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \relax 
+l.11 \begin{equation}
+                      \label{PV-micro} PV = Nm{\overline v_x^2} = NkT\end{eq...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.17 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.24 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.29 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.34 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.39 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.46 \begin{equation}
+                      <imgs/Maxwell-speed.pdf, id=1455, 433.62pt x 289.08pt>
+File: imgs/Maxwell-speed.pdf Graphic file (type pdf)
+
+<use imgs/Maxwell-speed.pdf>
+Package pdftex.def Info: imgs/Maxwell-speed.pdf used on input line 52.
+(pdftex.def)             Requested size: 284.52756pt x 189.69504pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.53 ...ifferent types of characteristic speeds. }
+                                                  
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.8}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.60 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.65 \begin{equation}
+                      [1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{section.2}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.75 \section{Partition Function and Free Energy}
+                                                 pdfTeX warning (ext4): destina
+tion with the same identifier (name{equation.2.11}) has been already used, dupl
+icate ignored
+<to be read again> 
+                   \relax 
+l.80 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.12}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.86 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.91 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.14}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.98 \begin{equation}
+                      [2 <./imgs/Maxwell-speed.pdf>]pdfTeX warning (ext4): dest
+ination with the same identifier (name{equation.2.15}) has been already used, d
+uplicate ignored
+<to be read again> 
+                   \relax 
+l.106 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.16}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.111 \begin{equation}
+                      ) [3]
+\openout2 = `tex/Lec24.aux'.
+
+ (./tex/Lec24.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 ...{Partition Functions for Composite Systems}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.1.1}) has been already used, dupl
+icate ignored
+<to be read again> 
+                   \relax 
+l.7 \begin{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{equation.1.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.12 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.17 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.22 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.30 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.34 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{section.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.38 \section{The Partition Function of Ideal Gas}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.2.7}) has been already used, dupl
+icate ignored
+<to be read again> 
+                   \relax 
+l.40 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.50 \begin{equation}
+                      [1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{equation.2.1
+0}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.55 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.11}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.60 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.12}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.64 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.68 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.14}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.73 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.15}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.78 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.16}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.86 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.17}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.90 \begin{equation}
+                      [2]) [3]
+\openout2 = `tex/Lec25.aux'.
+
+ (./tex/Lec25.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5 \section{The Gibbs Factor}
+                              pdfTeX warning (ext4): destination with the same 
+identifier (name{equation.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.8 \begin{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{equation.1.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.15 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.21 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.28 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.33 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{section.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.42 \section{Bosons and Fermions}
+                                   [1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{section.3}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.53 \section{The Distribution Functions}
+                                         pdfTeX warning (ext4): destination wit
+h the same identifier (name{equation.3.6}) has been already used, duplicate ign
+ored
+<to be read again> 
+                   \relax 
+l.54 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.59 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.64 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.74 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.83 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.11}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.88 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.12}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.93 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.101 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.14}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.105 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.15}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.109 \begin{equation}
+                       [2]pdfTeX warning (ext4): destination with the same iden
+tifier (name{equation.3.16}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.112 \begin{equation}
+                      ) [3]
+\openout2 = `tex/Lec26.aux'.
+
+ (./tex/Lec26.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 \section{Einstein Model}
+                            pdfTeX warning (ext4): destination with the same id
+entifier (name{equation.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6 \begin{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{equation.1.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.18 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.28 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.33 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.41 \begin{equation}
+                      [1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{section.2}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.53 \section{Debye Model}
+                          pdfTeX warning (ext4): destination with the same iden
+tifier (name{equation.2.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.62 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.68 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.74 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.84 \begin{equation}
+                      [2]pdfTeX warning (ext4): destination with the same ident
+ifier (name{equation.2.11}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.96 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.12}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.100 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.105 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.14}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.110 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.15}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.116 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.16}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.122 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.17}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.127 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.18}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.133 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{section.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.143 \section{Further Discussions}
+                                    [3]
+<imgs/Debye.png, id=1553, 963.12297pt x 520.2009pt>
+File: imgs/Debye.png Graphic file (type png)
+ <use imgs/Debye.png>
+Package pdftex.def Info: imgs/Debye.png used on input line 152.
+(pdftex.def)             Requested size: 422.77661pt x 228.34933pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.156 ...atures. Copyright 2000, Addison-Wesley. }
+                                                  
+Missing character: There is no â in font pplr7t!
+Missing character: There is no ‡ in font pplr7t!
+Missing character: There is no ¤ in font pplr7t!
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.156 ...atures. Copyright 2000, Addison-Wesley. }
+                                                  
+Missing character: There is no â in font pplr7t!
+Missing character: There is no ‡ in font pplr7t!
+Missing character: There is no ¤ in font pplr7t!
+) [4 <./imgs/Debye.png>]
+\openout2 = `tex/Lec27.aux'.
+
+
+(./tex/Lec27.texpdfTeX warning (ext4): destination with the same identifier (na
+me{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 \section{The Regime of Quantum Statistics}
+                                              pdfTeX warning (ext4): destinatio
+n with the same identifier (name{equation.1.1}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.6 \begin{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{section.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.16 \section{Electron at 0 K}
+                              pdfTeX warning (ext4): destination with the same 
+identifier (name{equation.2.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.29 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.34 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.40 \begin{equation}
+                      [1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{equation.2.6
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.51 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.56 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.65 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.71 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.11}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.79 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{section.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.85 \section{Small Nonzero Temperature}
+                                        pdfTeX warning (ext4): destination with
+ the same identifier (name{equation.3.12}) has been already used, duplicate ign
+ored
+<to be read again> 
+                   \relax 
+l.92 \begin{equation}
+                      [2]pdfTeX warning (ext4): destination with the same ident
+ifier (name{equation.3.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.96 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.14}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.101 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.15}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.107 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.16}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.115 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.17}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.120 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.18}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.125 \begin{equation}
+                      ) [3]
+\openout2 = `tex/Lec28.aux'.
+
+ (./tex/Lec28.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 \section{The statistical behavior for Bosons}
+                                                 pdfTeX warning (ext4): destina
+tion with the same identifier (name{equation.1.1}) has been already used, dupli
+cate ignored
+<to be read again> 
+                   \relax 
+l.6 \begin{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{equation.1.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.16 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{section.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.23 ...tion{Computing the total number of Bosons}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.2.4}) has been already used, dupl
+icate ignored
+<to be read again> 
+                   \relax 
+l.24 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.29 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.35 \begin{equation}
+                      <imgs/BEC1.png, id=1575, 963.12297pt x 282.6401pt>
+File: imgs/BEC1.png Graphic file (type png)
+
+<use imgs/BEC1.png>
+Package pdftex.def Info: imgs/BEC1.png used on input line 41.
+(pdftex.def)             Requested size: 422.77661pt x 124.06876pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.43 ...ibution. Copyright 2000, Addison-Wesley. }
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.1}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.43 ...ibution. Copyright 2000, Addison-Wesley. }
+                                                  
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.7}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.47 \begin{equation}
+                      [1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{equation.2.8
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.55 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.60 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.65 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.2.11}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.70 \begin{equation}
+                      <imgs/BEC2.png, id=1581, 586.74654pt x 324.14168pt>
+File: imgs/BEC2.png Graphic file (type png)
+
+<use imgs/BEC2.png>
+Package pdftex.def Info: imgs/BEC2.png used on input line 76.
+(pdftex.def)             Requested size: 375.80542pt x 207.61812pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.78 ...$T^{3/2}$. Copyright 2000, Addison-Wesley}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.2}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.78 ...$T^{3/2}$. Copyright 2000, Addison-Wesley}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{section.3}) has been already used, duplica
+te ignored
+<to be read again> 
+                   \relax 
+l.83 \section{Real World Examples}
+                                   [2 <./imgs/BEC1.png>]pdfTeX warning (ext4): 
+destination with the same identifier (name{section.4}) has been already used, d
+uplicate ignored
+<to be read again> 
+                   \relax 
+l.88 \section{Why does it happen}
+                                 ) [3 <./imgs/BEC2.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
+ (./main.aux
+(./tex/syllabus.aux) (./tex/Lec01.aux) (./tex/Lec02.aux) (./tex/Lec03.aux)
+(./tex/Lec04.aux) (./tex/Lec05.aux) (./tex/Lec06.aux) (./tex/Lec07.aux)
+(./tex/Lec08.aux) (./tex/Lec09.aux) (./tex/Lec10.aux) (./tex/Lec11.aux)
+(./tex/Lec12.aux) (./tex/Lec13.aux) (./tex/Lec14.aux) (./tex/Lec15.aux)
+(./tex/Lec16.aux) (./tex/Lec17.aux) (./tex/Lec18.aux) (./tex/Lec19.aux)
+(./tex/Lec20.aux) (./tex/Lec21.aux) (./tex/Lec22.aux) (./tex/Lec23.aux)
+(./tex/Lec24.aux) (./tex/Lec25.aux) (./tex/Lec26.aux) (./tex/Lec27.aux)
+(./tex/Lec28.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 8281C181E406D7647D908613C793A7D7;6055.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 133.
+ ) 
+Here is how much of TeX's memory you used:
+ 26610 strings out of 492995
+ 524741 string characters out of 6132704
+ 569788 words of memory out of 5000000
+ 29218 multiletter control sequences out of 15000+600000
+ 567030 words of font info for 122 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,20n,65p,10346b,683s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-dist
+/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/
+type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/u
+rw/palatino/uplri8a.pfb>
+Output written on main.pdf (95 pages, 818246 bytes).
+PDF statistics:
+ 1706 PDF objects out of 1728 (max. 8388607)
+ 1196 compressed objects within 12 object streams
+ 339 named destinations out of 1000 (max. 500000)
+ 963 words of extra memory for PDF output out of 10000 (max. 10000000)
+

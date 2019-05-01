@@ -1,0 +1,130 @@
+\lecture{24}{Ideal Gas Model in Boltzmann Statistics}{Qiang Zhu}{scribe-name1,2,3}
+
+\section{Partition Functions for Composite Systems}
+Consider a system of just two particles, 1 and 2. If these particles do not interact with each other, there 
+energy is just simply $E1$ + $E2$, then
+
+\begin{equation}
+Z_\text{total} = \sum_{s} e^{-\beta[E_1(s)+E_2(s)]} = \sum_{s} e^{-\beta E1(s)} e^{-\beta E2(s)}
+\end{equation}
+ 
+Where the sum runs over all states $s$ for the composite system. If the two particles are indistinguishable,
+\begin{equation}
+Z_\text{total} = \sum_{s1}\sum_{s2} e^{-\beta E1(s1)} e^{-\beta E2(s2)}
+\end{equation}
+ 
+In this case, we split the total partition functions $Z$ into to separate $Z1$ and $Z2$.
+\begin{equation}
+Z_\text{total} = Z_1Z_2
+\end{equation}
+ 
+If the two particles are indistinguishable, we have to apply 1/2 to reduce the double counts.
+\begin{equation}
+Z_\text{total} = \frac{1}{2}Z_1Z_2
+\end{equation}
+
+This formula is not precisely correct, because there are some terms {\bf in the double sum in which both particles are in the same state 
+when the system is very dense}. 
+
+Therefore, the generalization of the equation is the following
+\begin{equation}
+Z_\text{total} = Z_1Z_2Z_3\cdot\cdot\cdot Z_N
+\end{equation}
+
+\begin{equation}
+Z_\text{total} = \frac{1}{N!}Z_1^N
+\end{equation}
+
+\section{The Partition Function of Ideal Gas}
+An ideal gas should have the following partition function form,
+\begin{equation}
+Z_\text{total} = \frac{1}{N!}Z_1^N
+\end{equation}
+
+To calculate $Z_1$, we must make the Boltzmann factor,
+\begin{equation}
+e^{-E(s)/kT} = e^{-E_\text{tr}(s)/kT}  e^{-E_\text{int}(s)/kT}
+\end{equation}
+
+Since $Z$ is additive,
+\begin{equation}
+Z_1 = Z_\text{tr}Z_\text{int}
+\end{equation}
+
+Where
+\begin{equation}
+ Z_\text{tr} = \sum e^{-E_\text{tr}/kT}  ~~~~~   Z_\text{int} = \sum e^{-E_\text{int}/kT}
+\end{equation}
+
+To calculate $Z_\text{tr}$, we can start with the case of a molecule confined to a one-dimensional box.
+\begin{equation}
+\lambda_n = \frac{2L}{n},    ~~~~~~ n = 1,2,....,
+\end{equation}
+
+\begin{equation}
+p_n = \frac{h}{\lambda_n}=\frac{hn}{2L}    ~~~~~~ n = 1,2,....,
+\end{equation}
+
+\begin{equation}
+E_n = \frac{p_n^2}{2m}=\frac{h^2n^2}{8mL^2}   
+\end{equation}
+
+Therefore, 
+\begin{equation}
+Z_\text{1d} = \sum_n e^{-E_n/kT} = \sum e^{\frac{-h^2n^2}{8mL^2kT}}
+\end{equation}
+
+By doing integration
+\begin{equation}
+Z_\text{1d} = \int_0^{\infty}  e^{\frac{-h^2n^2}{8mL^2kT}} dn 
+            = \frac{\sqrt{\pi}}{2} \sqrt{\frac{8mL^2kT}{h^2}} 
+            = \sqrt{\frac{2\pi mkT}{h^2}}L
+            = \frac{L}{L_Q}  ~~~~ (L_Q: ~\text{Quantum length})
+\end{equation}
+
+For 3 dimension, 
+\begin{equation}
+E_\text{tr} = \frac{p_x^2}{2m} + \frac{p_y^2}{2m} + \frac{p_z^2}{2m}
+\end{equation}
+
+\begin{equation}
+Z_\text{tr} = \frac{L_x}{L_Q} \frac{L_y}{L_Q} \frac{L_z}{L_Q} = \frac{V}{V_Q} ~~~~ (V_Q: ~\text{Quantum Volume})
+\end{equation}
+
+\begin{equation}
+Z_{1} = \frac{V}{V_Q} Z_\text{int}
+\end{equation}
+
+where
+\begin{equation}
+Z = \frac{1}{N!} (\frac{VZ_\text{int}}{V_Q})^N
+\end{equation}
+and
+\begin{equation}
+\text{ln}Z = N[\text{ln}V + \text{ln}Z_\text{int} - \text{ln}N - \text{ln}V_Q + 1]
+\end{equation}
+
+
+Knowing $Z$ can help us to compute many quantities,
+\begin{equation}
+U = -\frac{1}{Z}\frac{\partial Z}{\partial{\beta}} = -\frac{\partial \text{ln}Z}{\partial{\beta}} 
+\end{equation}
+\begin{equation}
+U = -N\frac{\partial \text{ln}Z_\text{int}}{\partial{\beta}} + N\frac{1}{V_Q}\frac{\partial{V_Q}}{\partial{\beta}}
+  = N\bar{E}_\text{int} + N\frac{3}{2\beta} = U_\text{int} + \frac{3}{2}NkT
+\end{equation}
+
+\begin{equation}
+C_V = \frac{\partial U}{\partial T} =  \frac{\partial{U_\text{int}}}{\partial{T}} + \frac{3}{2}Nk
+\end{equation}
+
+\begin{equation}
+F = -kT\text{ln}Z = -NkT[\text{ln}V - \text{ln}N - \text{ln}V_Q + 1] + F_\text{int}
+\end{equation}
+
+From this, it is easy to compute 
+\begin{equation}
+P = -(\frac{\partial F}{\partial V})_{T,N}  = \frac{NkT}{V}
+\end{equation}
+
+

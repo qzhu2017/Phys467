@@ -1,0 +1,121 @@
+
+\lecture{25}{Gibbs Factor, Bosons, Fermions}{Qiang Zhu}{scribe-name1,2,3}
+
+
+\section{The Gibbs Factor}
+Remember when the derived the Boltzmann factor in the previous chapter, we wrote the ratio of probabilities of 
+two different states as follows,
+\begin{equation} 
+\frac{P(s_2)}{P(s_1)} = \frac{\Omega_R(s_2)}{\Omega_R(s_1)} 
+                      = \frac{e^{S_R(s_2)/k}}{e^{S_R(s_2)/k}}
+                      = e^{[S_R(s_2)-S_R(s_1)]/k}
+\end{equation}
+
+According to the thermodynamic identify,
+\begin{equation}
+dS_R = \frac{1}{T} (dU_R + PdV_R - \mu dN_R) 
+\end{equation}
+
+When constructing the Boltzmann factor, we ignored $PdV$ and $\mu dN$ terms. However, we want to keep the  $\mu dN$ to account
+for the exchanges in the number of particles. 
+\begin{equation}
+\frac{P(s_2)}{P(s_1)} = \frac{e^{[-E(s_2)-\mu N(s_2)]/kT}}{e^{[-E(s_1)-\mu N(s_1)]/kT}}
+\end{equation}
+
+And here we call the exponential factor Gibbs factor.
+
+Accordingly, the probability functions is written as
+\begin{equation}
+P(s) = \frac{1}{Z}e^{-E(s)/kT}
+\end{equation}
+
+Where $Z$ is called the grand partition function
+\begin{equation}
+Z = \sum e^{[-E(s)-\mu N(s)]/kT}
+\end{equation}
+
+If more than one type of particle can be present, the $\mu dN$ term becomes $\sum {\mu_i dN_i}$
+
+The grand partition is very useful in dealing with the situation where the particles exchange during the process.
+
+
+\section{Bosons and Fermions}
+More importantly, the concept of Gibbs factors is very useful in quantum statistics, where the study of dense systems in which two
+or more identifcal particles have reasonable chance to occupy the same single-particle state.
+
+Bosons: phontons, helium-4, integer spin
+
+Fermions: electrons, protons, neutrons, half-integer spin.
+
+When the system is very dense, namely $Z1 \gg N$, this becomes important.
+Quantum length/volume.
+
+\section{The Distribution Functions}
+\begin{equation}
+P(n) = \frac{1}{Z}e^{-(n\epsilon-\mu n)/kT} = \frac{1}{Z} e^{-n(\epsilon-\mu/kT}
+\end{equation}
+
+If the particles are fermions, $n$ could be only 0 or 1, so the grand partition function becomes
+\begin{equation}
+Z = 1 + e^{-(\epsilon-\mu)/kT}
+\end{equation}
+
+And the average number of particles is
+\begin{equation}
+\begin{split}
+\bar{n} = \sum_n{nP(n)} &= 0\cdot P(0) + 1\cdot P(1) \\
+                        &= \frac{e^{-(\epsilon-\mu)/kT}}{1+e^{-(\epsilon-\mu)/kT}}\\
+                        &= \frac{1}{e^{-(\epsilon-\mu)/kT}+1}
+\end{split}
+\end{equation}
+
+
+If the particles are Bosons,
+\begin{equation}
+\begin{split}
+Z   & = 1 + e^{-(\epsilon-\mu)/kT} + e^{-2(\epsilon-\mu)/kT} + ...\\
+    & = 1 + e^{-(\epsilon-\mu)/kT} + (e^{-(\epsilon-\mu)/kT})^2 + ...\\
+    & = \frac{1}{1- e^{-(\epsilon-\mu)/kT}}
+\end{split}
+\end{equation}
+
+and
+\begin{equation}
+\bar{n} = \sum_n{nP(n)} = 0\cdot P(0) + 1\cdot P(1) + ....
+\end{equation}
+
+Similar to what we did on $\bar{E}$, let $x = (\epsilon-\mu)/kT$,
+\begin{equation}
+\bar{n} = \sum_n{n \frac{e^{-nx}}{Z}} = -\frac{1}{Z} \sum{\frac{\partial e^{-nx}}{\partial x}} = -\frac{1}{Z}\frac{\partial Z}{\partial x}
+\end{equation}
+
+Therefore,
+\begin{equation}
+\begin{split}
+\bar{n} & = -\frac{1}{1-e^{-x}}\frac{\partial (1-e^{-x})^{-1}}{\partial x} = \\
+        & = \frac{1}{e^{(\epsilon-\mu)/kT}-1}
+\end{split}
+\end{equation}
+
+For the classical particles,
+\begin{equation}
+P(s) = \frac{1}{Z} e^{-\epsilon/kT}
+\end{equation}
+and
+\begin{equation}
+\bar{n} = NP(s) = \frac{N}{Z1}e^{\epsilon/kT}
+\end{equation}
+According to the result of Problem 6.44, the chemical potential for such system is
+\begin{equation}
+\mu = -kT\textrm{ln}(Z_1/N)
+\end{equation}
+\begin{equation}
+\bar{n} = NP(s) = \frac{N}{Z1}e^{\epsilon/kT}=e^{\mu/kT}e^{\epsilon/kT} = e^{-(\epsilon-\mu)/kT}
+\end{equation}
+
+
+Show the plots of $n$ versus $\epsilon$ for Bosons, Fermions and Boltzmann particles.
+Clearly, the three distributions become equal when $(\epsilon-\mu)/kT \gg 1$.
+For any of these applications, we can apply the distributions as long as we know the chemical potential.
+
+

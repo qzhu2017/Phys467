@@ -1,0 +1,226 @@
+\lecture{7}{The Second Law and Entropy}{Qiang Zhu}{scribe-name1,2,3}
+
+
+\section{Calculate $\Omega$ for a Einstein Solid}
+Remember we have done some computer programmings for two-state systems.
+A general trend is that it approaches to a large number $N$, $\Omega(N)$ tends to be localized.
+If we treat the histogram of $\Omega(N)$ as a continues function (true when $N$ is very large),
+it looks like a very smooth curve and $\Omega(N)$ follows some kind of distribution. 
+
+Now let's try to figure out what it is, by taking a Einstein solid as an example. 
+\begin{equation} \label{E0}
+ \Omega(N, q) = \binom{q+N-1}{q} = \frac{(q+N-1)!}{q!(N-1)!}
+\end{equation}
+
+In reality, there are always many more energy units ($q$) than oscillator ($N$), so we assume $q\gg N$.
+
+To make it easier, let's just remove \textit{-1} in eq. \ref{E0},
+\begin{equation} \label{E1}
+\begin{split}
+ \text{ln}\Omega &= \text{ln}(\frac{(q+N)!}{q!N!})\\
+         &= \text{ln}(q+N)! - \text{ln}q! - \text{ln}N!\\
+   &\approx (q+N)\text{ln}(q+N) - (q+N) - q\text{ln}q - q - N\text{ln}N - N\\
+        & = (q+N)\text{ln}(q+N) - q\text{ln}q - N\text{ln}N \\
+\end{split}
+\end{equation}
+
+Remember we have the assumption of $q\gg N$, namely ($q/N \rightarrow$ 0)
+\begin{equation} \label{E2}
+       \text{ln}(q+N) = \text{ln}(q(1+\frac{N}{q}))\\
+                      = \text{ln}q + \frac{N}{q} 
+\end{equation}
+
+Therefore, we have 
+\begin{equation} \label{E3}
+       \text{ln}\Omega = N\text{ln}\frac{q}{N} + N + \frac{N^2}{q}\\
+                 \approx N\text{ln}\frac{q}{N} + N 
+\end{equation}
+
+If we remove the logarithm sign,
+\begin{equation} \label{E4}
+       \Omega(N,q) = (\frac{eq}{N})^N
+\end{equation}
+
+
+\section{Calculate $\Omega$ for two Einstein Solids}
+Naturally, we now know the general form of two Einstein Solids model,
+\begin{equation} \label{E5}
+       \Omega(N_A,q_A,N_B,q_B) = (\frac{eq_A}{N_A})^{N_A} (\frac{eq_B}{N_B})^{N_B}
+\end{equation}
+
+For simplicity, let make $N_A = N_B = N $, then
+\begin{equation} \label{E6}
+       \Omega(N,q_A,q_B) = (\frac{e}{N})^{2N} (q_A q_B)^{N}
+\end{equation}
+
+Based on what we plot in the homework, we know that $\Omega$ reaches its maximum value at 
+$q_A = q_B = q$/2,
+\begin{equation}
+       \Omega_\text{max} = (\frac{e}{N})^{2N} (q/2)^{2N}
+\end{equation}
+
+Now let's try to calculate the points near $q$/2, say,
+\begin{equation}
+  q_A = q/2+x, ~~~~~~~~~ q_B=q/2-x.
+\end{equation}
+
+Using eq. \ref{E6},
+\begin{equation} \label{E7}
+       \Omega(N,q,x) = (\frac{e}{N})^{2N} ((\frac{q}{2})^2-x^2)^{N}.
+\end{equation}
+
+To simplify it, we get
+\begin{equation} \label{E8}
+\begin{split}
+       \text{ln}((\frac{q}{2})^2-x^2)^{N} 
+           &= N[\text{ln}[(\frac{q}{2})^2-x^2]\\
+           &= N[\text{ln}(\frac{q}{2})^2 + \text{ln}(1-(\frac{2x}{q})^2))]\\
+           &= N[\text{ln}(\frac{q}{2})^2 - (\frac{2x}{q})^2)]\\
+           &= N[\text{ln}(\frac{q}{2})^2 - (\frac{2x}{q})^2)]
+\end{split}                                          
+\end{equation}
+hence we have 
+\begin{equation} \label{E9}
+  \Omega = \Omega_\text{max} \cdot e^{-N(2x/q)^2}
+\end{equation}
+This is a typical Gaussian function. A standard version is as follows,
+\begin{equation}
+  f(x|\mu,\delta^2) = \frac{1}{\sqrt{2\delta^2}\pi} e^\frac{-(x-\mu)^2}{2\delta^2}.
+\end{equation}
+
+\begin{tikzpicture}[x=1.5cm, y=1.5cm]
+
+%normal distribution function 'normaltwo'
+    \def\normaltwo{\x,{4*1/exp(((\x-3)^2)/2)}}
+% input y parameter
+    \def\y{3.5}
+% this line calculates f(y)
+    \def\fy{4*1/exp(((\y-3)^2)/2)}
+% Shade orange area underneath curve.
+    %\fill [fill=orange!60] (2.6,0) -- plot[domain=0:4.4] (\normaltwo) -- ({\y},0) -- cycle;
+% Draw and label normal distribution function
+    \draw[color=blue,domain=0:6] plot (\normaltwo) node[right] {};
+% Add dashed line dropping down from normal.
+    \draw[dashed] ({\y},{\fy}) -- ({\y},0)     node[below] {$\mu+\delta$};
+    \draw[dashed] ({6-\y},{\fy}) -- ({6-\y},0) node[below] {$\mu-\delta$};
+% Optional: Add axis labels
+    \draw (-.2,2.5) node[left] {$f(x)$};
+    \draw (3,-.5) node[below] {$x$};
+% Optional: Add axes
+    \draw[->] (0,0) -- (6.2,0) node[right] {};
+    \draw[->] (0,0) -- (0,5) node[above] {};
+\end{tikzpicture}
+\begin{enumerate}
+\item symmetric
+%\item unimodal
+%\item its second derivetive is equal to 
+\item Gaussian width
+\end{enumerate}
+
+
+
+The multiplicity falls off to 1/e of its maximum when 
+\begin{equation}
+  N(\frac{2x}{q})^2 = 1 ~~~~~~or~~~~~~ x = \frac{q}{2\sqrt{N}}
+\end{equation}
+
+Let's plug in some number, say $N$=\textrm {$10^{20}$}, 
+This results tell us,
+when two Einstein solids are in thermodynamical equilibrium, any random fluctuation
+will be not measurable. The most-likely macrostates are very localized.\\
+{\bf Exercises}
+\begin{enumerate}
+\item Problem 2.20. 
+\item Problem 2.23
+\end{enumerate}
+
+\section{Ideal Gas}
+Suppose we have a single gas atom (Ar), with kinetic energy $U$ in a container of volume $V$, what is its corresponding $\Omega$?
+Obviously, the possible microstate is proportional to V. In principle, the atom can stay at any place of $V$.
+Also, each microstate can be represented as a vector, since it has velocity (more precisely Momentum). 
+Therefore
+\begin{equation}
+\Omega \approx V\cdot V_p
+\end{equation}
+
+
+
+It appears that both $V$ and $V_p$ somehow relate to very large numbers, would their product go to infinity? 
+Fortunately, we have the famous {\bf Heisenberg uncertainty principle}:
+\begin{equation} \Delta{x}\Delta{p_x} = h. \end{equation}
+
+For a one-dimensional chain, we define $L$ as the length in real space, $L_p$ as the length in momentum space,
+\begin{equation} \Omega_{1D} = \frac{L}{\Delta{x}} \frac{L_p}{\Delta{p_x}} = \frac{LL_p}{h}. \end{equation}
+Therefore, its 3D version is,
+\begin{equation} \Omega_1 = \frac{VV_p}{h^3}. \end{equation}
+Accordingly, the multiplicity function for an ideal gas of two molecules should be
+\begin{equation} 
+\Omega_2 = \frac{1}{2}\frac{V^2}{h^6} \times \text{area of $P$ hypersphere}
+\end{equation}
+if the two molecules are indistinguishable.
+The general form for $N$ should be 
+\begin{equation} \Omega_N = \frac{1}{N!}\frac{V^N}{h^{3N}} \times \text{area of $P$ hypersphere}. \end{equation}
+
+For $N$=1, how to calculate the area?
+Since $U$ depends on the momentum by
+\begin{equation}
+U = \frac{1}{2}m(v_x^2+v_y^2+v_z^2)=\frac{1}{2m}(p_x^2+p_y^2+p_z^2)
+\end{equation}
+\begin{equation}
+p_x^2+p_y^2+p_z^2 = \sqrt{2mU}
+\end{equation}
+
+So the momentum space is the surface of a sphere with radius $\sqrt{2mU}$, namely,
+\begin{equation}
+\begin{split}
+\text{area} = & 2    ~~~~~~~~~~~~~~~~~~~~~~~~\text {($d$=1)}\\
+            = & 2\pi r    ~~~~~~~~~~~~~~~~~~~\text {($d$=2)}\\
+            = & 4\pi r^2    ~~~~~~~~~~~~~~~~~\text {($d$=3)}\\
+            = & ....\\
+            = & ....\\
+            = & \frac{2\pi^{d/2}}{\Gamma(d/2)} r^{d-1} ~~~~~\text {($d$ in general)}\\
+\end{split}
+\end{equation}
+
+Therefore, the general $\Omega$ is
+\begin{equation} 
+\Omega_N = \frac{1}{N!} \frac{V^N}{h^{3N}} \frac{2\pi^{3N/2}}{(3N/2-1)!} \sqrt{2mU}^{3N-1}. 
+\end{equation}
+
+
+\begin{equation}
+\Omega(U,V,N) = f(N)V^NU^{3N/2}
+\end{equation}
+where $f(N)$ is a complicated function of $N$.\\
+
+For two interaction gases,
+\begin{equation}
+\Omega(U,V,N) = [f(N)]^2(V_AV_B)^N(U_AU_B)^{3N/2}
+\end{equation}
+
+
+%\appendix
+\section{Appendix: Area of high-dimensional Hypersphere}
+For a d-dimensional hypersphere with a radius of $r$, we can solve it iteratively.
+When $d$=1, $A(r)$=2, $d$=2, $A(r)=2\pi r$
+\begin{equation}
+    A_3(r) = \int_0^{\pi} A_2(r\sin\theta)rd\theta = 2\pi r^2 \int_0^{\theta}d\theta = 4\pi r^2.
+\end{equation}
+Consequently, we can keep doing this
+\begin{equation}
+\begin{split}
+    A_d(r) = & \int_0^\pi{A_{d-1}(r\sin(\theta))rd\theta} \\
+           = & \int_0^\pi\frac{2\pi^{(d-1)/2}}{\Gamma(\frac{d-1}{2})}(r\sin\theta)^{d-2}rd\theta \\
+           = & \frac{2\pi^{(d-1)/2}}{\Gamma(\frac{d-1}{2})}r^{d-1} \int_0^{\pi}(\sin\theta)^{d-2}d\theta\\
+\end{split}
+\end{equation}
+
+\begin{equation}
+    \int_0^{\pi} (\sin\theta)^nd\theta = \frac{\sqrt{\pi}\Gamma(\frac{n+2}{2})}{\Gamma(\frac{n+2}{2})}
+\end{equation}
+
+so
+\begin{equation}
+    A_d(r) = \frac{2\pi^{d/2}}{\Gamma(d/2)}r^{d-1}
+\end{equation}
+
