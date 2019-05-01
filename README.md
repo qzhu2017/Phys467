@@ -36,4 +36,6 @@ Lecture notes for Phys467 in UNLV
 - Lecture_26 [Debye Model of Solids](http://www.physics.unlv.edu/~qzhu/Teaching/ThermalPhysics/Lec26.pdf)
 - Lecture_27 [Free Electron Gases](http://www.physics.unlv.edu/~qzhu/Teaching/ThermalPhysics/Lec27.pdf)
 - Lecture_28 [Bose-Einstein Condensation](http://www.physics.unlv.edu/~qzhu/Teaching/ThermalPhysics/Lec28.pdf)
-- Here is the [link to all lectures in a single pdf](http://www.physics.unlv.edu/~qzhu/Teaching/ThermalPhysics/Phys467.pdf)
+
+## Full lecture Notes
+Here is the [link to all lectures in a single pdf](http://www.physics.unlv.edu/~qzhu/Teaching/ThermalPhysics/Phys467.pdf)
