@@ -13,7 +13,7 @@ Lecture notes for Phys467 in UNLV
 - Lecture_03 [Compression Work](http://www.physics.unlv.edu/~qzhu/Teaching/ThermalPhysics/Lec03.pdf)
 - Lecture_04 [Heat Capacity and Enthalpy](http://www.physics.unlv.edu/~qzhu/Teaching/ThermalPhysics/Lec04.pdf)
 - Lecture_05 [Microstates and Macrostates](http://www.physics.unlv.edu/~qzhu/Teaching/ThermalPhysics/Lec05.pdf)
-- Lecture_06 [Two Einstein Solids](http://www.physics.unlv.edu/~qzhu/Teaching/ThermalPhysics/Lec06.pdf)   [Homework_03](http://www.physics.unlv.edu/~qzhu/Teaching/ThermalPhysics/hw3.pdf)
+- Lecture_06 [Two Einstein Solids](http://www.physics.unlv.edu/~qzhu/Teaching/ThermalPhysics/Lec06.pdf) &nbsp;&nbsp;&nbsp;&nbsp;[*Homework_03*](http://www.physics.unlv.edu/~qzhu/Teaching/ThermalPhysics/hw3.pdf)
 - Lecture_07 [Multiplicity of Solids and Ideal Gas](http://www.physics.unlv.edu/~qzhu/Teaching/ThermalPhysics/Lec07.pdf)
 - Lecture_08 [Entropy](http://www.physics.unlv.edu/~qzhu/Teaching/ThermalPhysics/Lec08.pdf)
 - Lecture_09 [Entropy and Temperature](http://www.physics.unlv.edu/~qzhu/Teaching/ThermalPhysics/Lec09.pdf)
