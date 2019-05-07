@@ -1,9 +1,9 @@
 \lecture{7}{The Second Law and Entropy}{Qiang Zhu}{scribe-name1,2,3}
 
 
-\section{Calculate $\Omega$ for a Einstein Solid}
-Remember we have done some computer programmings for two-state systems.
-A general trend is that it approaches to a large number $N$, $\Omega(N)$ tends to be localized.
+\section{Calculate $\Omega$ for an Einstein Solid}
+Remember we have done some computer programming for two-state systems.
+A general trend is that it approaches a large number $N$, $\Omega(N)$ tends to be localized.
 If we treat the histogram of $\Omega(N)$ as a continues function (true when $N$ is very large),
 it looks like a very smooth curve and $\Omega(N)$ follows some kind of distribution. 
 
@@ -12,38 +12,38 @@ Now let's try to figure out what it is, by taking a Einstein solid as an example
  \Omega(N, q) = \binom{q+N-1}{q} = \frac{(q+N-1)!}{q!(N-1)!}
 \end{equation}
 
-In reality, there are always many more energy units ($q$) than oscillator ($N$), so we assume $q\gg N$.
+In reality, there are always many more energy units ($q$) than oscillators ($N$), so we assume $q\gg N$.
 
 To make it easier, let's just remove \textit{-1} in eq. \ref{E0},
 \begin{equation} \label{E1}
 \begin{split}
  \text{ln}\Omega &= \text{ln}(\frac{(q+N)!}{q!N!})\\
          &= \text{ln}(q+N)! - \text{ln}q! - \text{ln}N!\\
-   &\approx (q+N)\text{ln}(q+N) - (q+N) - q\text{ln}q - q - N\text{ln}N - N\\
+   &\approx (q+N)\text{ln}(q+N) - (q+N) - q\text{ln}q - q - N\text{ln}N + N\\
         & = (q+N)\text{ln}(q+N) - q\text{ln}q - N\text{ln}N \\
 \end{split}
 \end{equation}
 
-Remember we have the assumption of $q\gg N$, namely ($q/N \rightarrow$ 0)
+Remember we have the assumption of $q\gg N$, namely ($N/q \rightarrow$ 0)
 \begin{equation} \label{E2}
        \text{ln}(q+N) = \text{ln}(q(1+\frac{N}{q}))\\
-                      = \text{ln}q + \frac{N}{q} 
+                      \approx \text{ln}q + \frac{N}{q} 
 \end{equation}
 
 Therefore, we have 
 \begin{equation} \label{E3}
-       \text{ln}\Omega = N\text{ln}\frac{q}{N} + N + \frac{N^2}{q}\\
+       \text{ln}\Omega \approx N\text{ln}\frac{q}{N} + N + \frac{N^2}{q}\\
                  \approx N\text{ln}\frac{q}{N} + N 
 \end{equation}
 
 If we remove the logarithm sign,
 \begin{equation} \label{E4}
-       \Omega(N,q) = (\frac{eq}{N})^N
+       \Omega(N,q) \approx (\frac{eq}{N})^N
 \end{equation}
 
 
 \section{Calculate $\Omega$ for two Einstein Solids}
-Naturally, we now know the general form of two Einstein Solids model,
+Naturally, we now know the general form of \textit{two Einstein Solids} model,
 \begin{equation} \label{E5}
        \Omega(N_A,q_A,N_B,q_B) = (\frac{eq_A}{N_A})^{N_A} (\frac{eq_B}{N_B})^{N_B}
 \end{equation}
@@ -74,9 +74,9 @@ To simplify it, we get
 \begin{split}
        \text{ln}((\frac{q}{2})^2-x^2)^{N} 
            &= N[\text{ln}[(\frac{q}{2})^2-x^2]\\
-           &= N[\text{ln}(\frac{q}{2})^2 + \text{ln}(1-(\frac{2x}{q})^2))]\\
-           &= N[\text{ln}(\frac{q}{2})^2 - (\frac{2x}{q})^2)]\\
-           &= N[\text{ln}(\frac{q}{2})^2 - (\frac{2x}{q})^2)]
+           &= N[\text{ln}(\frac{q}{2})^2 + \text{ln}(1-(\frac{2x}{q})^2)]\\
+           &\approx N[\text{ln}(\frac{q}{2})^2 - (\frac{2x}{q})^2)]
+          % &= N[\text{ln}(\frac{q}{2})^2 - (\frac{2x}{q})^2)]
 \end{split}                                          
 \end{equation}
 hence we have 
@@ -124,7 +124,7 @@ The multiplicity falls off to 1/e of its maximum when
   N(\frac{2x}{q})^2 = 1 ~~~~~~or~~~~~~ x = \frac{q}{2\sqrt{N}}
 \end{equation}
 
-Let's plug in some number, say $N$=\textrm {$10^{20}$}, 
+Let's plug in some number, say $N$=\textrm {$10^{20}$}. 
 This results tell us,
 when two Einstein solids are in thermodynamical equilibrium, any random fluctuation
 will be not measurable. The most-likely macrostates are very localized.\\
@@ -135,7 +135,7 @@ will be not measurable. The most-likely macrostates are very localized.\\
 \end{enumerate}
 
 \section{Ideal Gas}
-Suppose we have a single gas atom (Ar), with kinetic energy $U$ in a container of volume $V$, what is its corresponding $\Omega$?
+Suppose we have a single gas atom (Ar), with a kinetic energy $U$ in a container of volume $V$, what is its corresponding $\Omega$?
 Obviously, the possible microstate is proportional to V. In principle, the atom can stay at any place of $V$.
 Also, each microstate can be represented as a vector, since it has velocity (more precisely Momentum). 
 Therefore
@@ -145,7 +145,7 @@ Therefore
 
 
 
-It appears that both $V$ and $V_p$ somehow relate to very large numbers, would their product go to infinity? 
+It appears that both $V$ and $V_p$ somehow relate to very large numbers, but would their product go to infinity? 
 Fortunately, we have the famous {\bf Heisenberg uncertainty principle}:
 \begin{equation} \Delta{x}\Delta{p_x} = h. \end{equation}
 
@@ -167,7 +167,7 @@ Since $U$ depends on the momentum by
 U = \frac{1}{2}m(v_x^2+v_y^2+v_z^2)=\frac{1}{2m}(p_x^2+p_y^2+p_z^2)
 \end{equation}
 \begin{equation}
-p_x^2+p_y^2+p_z^2 = \sqrt{2mU}
+p_x^2+p_y^2+p_z^2 = 2mU
 \end{equation}
 
 So the momentum space is the surface of a sphere with radius $\sqrt{2mU}$, namely,
@@ -193,7 +193,7 @@ Therefore, the general $\Omega$ is
 \end{equation}
 where $f(N)$ is a complicated function of $N$.\\
 
-For two interaction gases,
+For two interacting gases,
 \begin{equation}
 \Omega(U,V,N) = [f(N)]^2(V_AV_B)^N(U_AU_B)^{3N/2}
 \end{equation}
@@ -204,7 +204,7 @@ For two interaction gases,
 For a d-dimensional hypersphere with a radius of $r$, we can solve it iteratively.
 When $d$=1, $A(r)$=2, $d$=2, $A(r)=2\pi r$
 \begin{equation}
-    A_3(r) = \int_0^{\pi} A_2(r\sin\theta)rd\theta = 2\pi r^2 \int_0^{\theta}d\theta = 4\pi r^2.
+    A_3(r) = \int_0^{\pi} A_2(r\sin\theta)rd\theta = 2\pi r^2 \int_0^{\pi}d\theta = 4\pi r^2.
 \end{equation}
 Consequently, we can keep doing this
 \begin{equation}
@@ -216,7 +216,7 @@ Consequently, we can keep doing this
 \end{equation}
 
 \begin{equation}
-    \int_0^{\pi} (\sin\theta)^nd\theta = \frac{\sqrt{\pi}\Gamma(\frac{n+2}{2})}{\Gamma(\frac{n+2}{2})}
+    \int_0^{\pi} (\sin\theta)^nd\theta = \frac{\sqrt{\pi}\Gamma(\frac{n+2}{2})}{\Gamma(\frac{n+1}{2})}
 \end{equation}
 
 so

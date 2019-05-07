@@ -3,8 +3,8 @@
 \section{The van der Waals Model}
 To understand phase transformations more deeply, 
 \begin{enumerate}
-\item What's the shape of phase boundary?
-\item Why there is a critical point? What's its origin?
+\item What's the shape of the phase boundary?
+\item Why is there a critical point? What's its origin?
 \end{enumerate}
 
 we should start with a specific mathematical model.
@@ -12,13 +12,13 @@ The easiest model is perhaps to study liquid-gas transformations based van der W
 
 In 1873, van der Waals proposed a modified model based on the ideal gas law.
 \begin{equation} 
-(P + \frac{\alpha N^2}{V^2})(V-Nb) = NkT
+(P + \frac{a N^2}{V^2})(V-Nb) = NkT
 \end{equation}
 
 The modifications are the following,
 \begin{enumerate}
 \item Subtracting $Nb$ from $V$, which accounts for the minimum volume when pressure goes to infinity. 
-\item Adding $aN^2/V^2$ to $P$, which account for the short range attractive forces.
+\item Adding $aN^2/V^2$ to $P$, which accounts for the short range attractive forces.
 \end{enumerate}
 
 Why $N$ and $N^2/V^2$?\\
@@ -31,10 +31,10 @@ P = \frac{NkT}{V-Nb}-\frac{aN^2}{V^2}
 \end{equation}
 
 The constants of $a$ and $b$ must be fitted for different systems.
-$b$ corresponds to the molecular volume. While $a$ is much more variable because of the complex intermolecular interactions.
+$b$ corresponds to the molecular volume, while $a$ is much more variable because of the complex intermolecular interactions.
 Now let us investigate the consequence of the vdW model.
 At high $T$ regime ($V$ goes to high), it exactly behaves like gas.
-At low $T$ regime, the behavior is much more complicated. As $V$ decreases to the isotherm rises, falls, and then rises again.
+At low $T$ regime, the behavior is much more complicated. As $V$ decreases the isotherm rises, falls, and then rises again.
 
 At a given $P,T$, the true equilibrium state of a system is determined by its Gibbs free energy. To calculate $G$ for a vdW fluid, let's
 start with the thermodynamic identity.
@@ -42,7 +42,7 @@ start with the thermodynamic identity.
 dG= -SdT + VdP + \mu dN
 \end{equation}
 
-For a fixed amount of materials, at a given temperature, thie equation reduces to $dG=VdP$. Dividing both sides by $dV$ gives,
+For a fixed amount of materials, at a given temperature, this equation reduces to $dG=VdP$. Dividing both sides by $dV$ gives,
 \begin{equation}
 (\frac{\partial G}{\partial V})_{N,T} = V (\frac{\partial P}{\partial V})_{N,T} 
 \end{equation}
@@ -65,11 +65,11 @@ At intermediate volumes, the thermodynamically stable state is actually a combin
 vertical line on the $P-V$ diagram. 
 
 The pressure at the phase transformation is easy enough to determine from the graph of $G$, but there is a way to obtain it from the $PV$ graph.
-Clearly, there should be zero net work during 2-3-4-5-6 loop, since 2, 6 are in equilibrium. This is called {\bf Maxwell construction}.
+Clearly, there should be zero net work during the 2-3-4-5-6 loop, since 2, 6 are in equilibrium. This is called the {\bf Maxwell construction}.
 
 Repeating the Maxwell construction for a variety of temperatures gives the vapor pressures. The region which the line crosses defines the regions in the coexistence of liquid and gas.
 However, what will happen on high temperature? There is no way to build Maxwell construction. Hence the phase boundary must disappear at some temperature, which we call it critical temperature, $Tc$.
-And the corresponding $P,V$ is called $Pc$ and $Vc$. These values defines the {\bf critical point}. If the temperature goes beyond critical point, the liquid and gas are no longer distinguishable.
+And the corresponding $P,V$ is called $Pc$ and $Vc$. These values defines the {\bf critical point}. If the temperature goes beyond the critical point, the liquid and gas are no longer distinguishable.
 \begin{equation}
 \frac{\partial P}{\partial V} = 0 ~~~~~~  \frac{\partial^2 P}{\partial V^2} = 0
 \end{equation}
@@ -99,7 +99,7 @@ Problem 5.48, 5.49, 5.51, 5.52, 5.53
 \begin{figure}[h]
 \centering
 \includegraphics[width=9cm]{imgs/MaxWell-f.pdf}
-\caption{Gibbs free energy as a function of volume for a vdW model at $T$=0.9 Tc. The corresponding isotherm is shown at above.}
+\caption{Gibbs free energy as a function of volume for a vdW model at $T$=0.9 $T_c$. The corresponding isotherm is shown above.}
 \end{figure}
 
 

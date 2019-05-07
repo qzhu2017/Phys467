@@ -1,24 +1,23 @@
 \lecture{24}{Ideal Gas Model in Boltzmann Statistics}{Qiang Zhu}{scribe-name1,2,3}
 
 \section{Partition Functions for Composite Systems}
-Consider a system of just two particles, 1 and 2. If these particles do not interact with each other, there 
-energy is just simply $E1$ + $E2$, then
+Consider a system of just two particles, 1 and 2. If these particles do not interact with each other, their energy is just simply $E1$ + $E2$, then
 
 \begin{equation}
 Z_\text{total} = \sum_{s} e^{-\beta[E_1(s)+E_2(s)]} = \sum_{s} e^{-\beta E1(s)} e^{-\beta E2(s)}
 \end{equation}
  
-Where the sum runs over all states $s$ for the composite system. If the two particles are indistinguishable,
+Where the sum runs over all states $s$ for the composite system. If the two particles are \textit{distinguishable},
 \begin{equation}
 Z_\text{total} = \sum_{s1}\sum_{s2} e^{-\beta E1(s1)} e^{-\beta E2(s2)}
 \end{equation}
  
-In this case, we split the total partition functions $Z$ into to separate $Z1$ and $Z2$.
+In this case, we split the total partition functions $Z$ into separate $Z1$ and $Z2$.
 \begin{equation}
 Z_\text{total} = Z_1Z_2
 \end{equation}
  
-If the two particles are indistinguishable, we have to apply 1/2 to reduce the double counts.
+If the two particles are indistinguishable, we have to apply 1/2 to reduce double counts.
 \begin{equation}
 Z_\text{total} = \frac{1}{2}Z_1Z_2
 \end{equation}
@@ -35,7 +34,7 @@ Z_\text{total} = Z_1Z_2Z_3\cdot\cdot\cdot Z_N
 Z_\text{total} = \frac{1}{N!}Z_1^N
 \end{equation}
 
-\section{The Partition Function of Ideal Gas}
+\section{The Partition Function of an Ideal Gas}
 An ideal gas should have the following partition function form,
 \begin{equation}
 Z_\text{total} = \frac{1}{N!}Z_1^N

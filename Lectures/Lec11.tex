@@ -2,7 +2,7 @@
 
 
 \section{Chemical Potential}
-When we talk a system of Ideal gas), it is decribed by the following fundamental parameters, $T,P,N$,
+When we talk a system of ideal gas, it is described by the following fundamental parameters, $T,P,N$,
 \begin{enumerate}
 \item uneven $T$ $\rightarrow$ heat     flow ($S \uparrow$), we call it {\it thermal equilibrium}
 \item uneven $P$ $\rightarrow$ pressure flow ($S \uparrow$), we call it {\it mechanical equilibrium}
@@ -23,16 +23,16 @@ When we talk a system of Ideal gas), it is decribed by the following fundamental
 \caption{A schematic particle flow between two gases.}
 \end{figure}
 
-Such process due to the exchange of particles is called {\it diffusion}. Since diffusion is also a
-spontaneous process. It must lead to the increase of entropy (recall we have learned the mixing entropy).
+Such a process due to an exchange of particles is called {\it diffusion}. Since diffusion is also a
+spontaneous process, it must lead to the increase of entropy (recall we have learned the mixing entropy).
 This indicates that $S$ is also a function of $N$ (as we learned in Chapter 2).
-Therefore, we can also derive the equilibrium condition for diffusion (analogy to $P$).
+Therefore, we can also derive the equilibrium condition for a diffusion (analogous to $P$).
 \begin{equation} \label{entropy} 
 \frac {\partial{S_A}} {\partial{N_A}} =  \frac {\partial{S_B}} {\partial{N_B}} 
 \end{equation}
 
 What's the physical meaning of $\partial{S_A}/\partial{N_A}$? \\
-If we dig a bit on the units, we will find $\partial{S_A}/\partial{V_A}$ has a unit of J/K. 
+If we dig into the units, we will find $\partial{S_A}/\partial{V_A}$ has a unit of J/K. 
 Not a very pleasant quantity. Let's multiply it by $-T$ so that it has the dimension of energy.
 \begin{equation} \label{entropy} 
 \mu = -T (\frac {\partial{S}} {\partial{N}})_{U,V}
@@ -40,7 +40,7 @@ Not a very pleasant quantity. Let's multiply it by $-T$ so that it has the dimen
 
 So it means the equilibrium condition for diffusive process is $\mu_A$ = $\mu_B$.
 
-Now let's we generalize the processes which I shown in the beginning.
+Now let us generalize the processes which was shown in the beginning.
 \begin{enumerate}
 \item uneven $T(\frac {\partial{S}} {\partial{U}} = 1/T)  $ $\rightarrow$ heat     flow ($S\uparrow$) , we call it {\it thermal equilibrium.}
 \item uneven $P(\frac {\partial{S}} {\partial{V}} = P/T)  $ $\rightarrow$ pressure flow ($S\uparrow$) , we call it {\it mechanical equilibrium.}
@@ -60,7 +60,7 @@ Now let's we generalize the processes which I shown in the beginning.
 \begin{equation} dU = TdS - PdV  + \mu dN\end{equation}
 \begin{enumerate}
 \item $\Delta{U}$ = 0 , $\Delta{V}$=0, $\mu$=
-\item $\Delta{U}$ = 0 , $\Delta{V}$=0, $\mu$=
+\item $\Delta{S}$ = 0 , $\Delta{V}$=0, $\mu$=
 \end{enumerate}
 $\mu$ is the system's energy change when you add one particle while $S$ and $V$ is fixed. Normally, $\mu$ is negative.\\
 \begin{equation} dU = TdS - PdV  + \sum_{\substack{i}} \mu_i dN_i\end{equation}
@@ -89,13 +89,13 @@ $\mu$ is the system's energy change when you add one particle while $S$ and $V$ 
 \end{tikzpicture}
 \end{figure}
 
-For Einstein solid, $\mu$=-$\epsilon$\\\\\\\
+For an Einstein solid, $\mu$=-$\epsilon$\\\\\\\
 \begin{equation} \mu = (\frac{\partial U}{\partial N})_{S,V}  \end{equation}
 
 
 \section{Chemical potential for ideal gas}
 
-For a more realistic example, let's do ideal gas 
+For a more realistic example, let us look at an ideal gas 
 \begin{equation} \label{entropy} 
 S = Nk[\text{ln}(\frac{V}{N} (\frac{4\pi m U}{3Nh^2})^{3/2}) + \frac{5}{2}]
 \end{equation}
@@ -103,20 +103,20 @@ S = Nk[\text{ln}(\frac{V}{N} (\frac{4\pi m U}{3Nh^2})^{3/2}) + \frac{5}{2}]
 Differentiating with respect to $N$ gives
 \begin{equation}
 \begin{split}
-\mu =& -T{ k[\text{ln} (V (\frac{4\pi mU}{3h^2})^{3/2} )  - \text{ln}N^{5/2} + \frac{5}{2} ] - NK\frac{5}{2}\frac{1}{N} }\\
+\mu =& -T{ k[\text{ln} (V (\frac{4\pi mU}{3h^2})^{3/2} )  - \text{ln}N^{5/2} + \frac{5}{2} ] - Nk\frac{5}{2}\frac{1}{N} }\\
     =& -kT\text{ln}[\frac{V}{N} (\frac{4{\pi} mU}  {3Nh^2})^{3/2} ]\\
     =& -kT\text{ln}[\frac{V}{N} (\frac{2{\pi} mkT} {h^2})^{3/2} ]
 \end{split}
 \end{equation}
-Note that here $U = 3/2NKT$ was used in the last step.
+Note that here $U = 3/2NkT$ was used in the last step.
 
 He (0.32 eV, how to calculate?)
 Ar (0.42 eV, how to calculate?)
 
 
 \begin{enumerate}
-\item Mixing 1 mol He with 1 mol He (both at standard condition)
-\item Mixing 1 mol He with 1 mol Ar (both at standard condition)
+\item Mixing 1 mol He with 1 mol He (both at standard conditions)
+\item Mixing 1 mol He with 1 mol Ar (both at standard conditions)
 %\item No diffusion Einstein Solid.
 %\item No diffusion between two He gases.
 %\item generalized equation
@@ -125,7 +125,7 @@ Ar (0.42 eV, how to calculate?)
 
 \section{Exercise}
 Problem 3.37. Consider a monoatomic ideal gas that lives at a height $z$ above sea level, so each molecule has potential energy $mgz$ 
-in addition to it kinetic energy.\\
+in addition to its kinetic energy.\\
 (a) Show that the chemical potential is the same as if the gas were at sea level plus $mgz$
 \begin{equation}
   \mu  = -kT\text{ln}[\frac{V}{N} (\frac{2{\pi} mkT} {h^2})^{3/2} ] + mgz

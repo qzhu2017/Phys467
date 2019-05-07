@@ -13,15 +13,15 @@
 \begin{equation} \label{PV-micro} PV = Nm{\overline v_x^2} = NkT \end{equation}
 \begin{equation} \label{eqpartition} U_\text{thermal} = N \cdot f \cdot \frac{1}{2}kT \end{equation}
 
-How to count the number of degree of freedom ($f$)
+How to count the number of degrees of freedom ($f$)
 \begin{enumerate}
 \item{translation, rotation, vibration as a function of temperature}
-\item{number of atoms in the molecule, monoatomic, diatomic, .etc}
+\item{number of atoms in the molecule, monoatomic, diatomic, etc}
 \item{internal symmetry}
 \end{enumerate}
 
 \section{First law of thermodynamics}
-By conservation of energy, the change in total thermal energy is the sum of heat entered the system and work done on the system,
+By conservation of energy, the change in total thermal energy is the sum of heat entering the system and work done on the system,
 \begin{equation} \label{1st} \Delta{U} = Q + W \end{equation}
 Q: heat transfer by conduction, convection, radiation.\\
 W: mechanical/electric/chemical work. \\
@@ -93,7 +93,7 @@ What do they indicate:
 \end{enumerate}
 
 \subsection{Isothermal Compression}
-Under isothermal condition,
+Under isothermal conditions,
 \begin{equation} \label{isot} 
  W = -\int_{V_{i}}^{V_{f}} P(V)dV = -NkT \int_{V_{i}}^{V_{f}} \frac{1}{V}dV.
 \end{equation}
@@ -106,14 +106,14 @@ Since $U$ is constant, $Q$ is simply -$W$.
 
 
 \subsection{Adiabatic Compression}
-Remember $U$=$W$ under adiabatic condition, hence we have 
+Remember $U$=$W$ under adiabatic conditions, hence we have 
 \begin{equation} \label{du} dU = \frac{f}{2}NkdT, \end{equation}
 \begin{equation} \label{dW} dW = -PdV. \end{equation}
 Since $dU$=$dW$
 \begin{equation} \label{duw1} -PdV = \frac{f}{2}NkdT. \end{equation}
-By plugging in $PV = NKT$, we get
+By plugging in $PV = NkT$, we get
 \begin{equation} \label{duw2} -\frac{dV}{V} = \frac{f}{2} \frac{dT}{T}. \end{equation}
-Let do integrate here,
+Let us integrate here,
 \begin{equation} \label{duw3} \int_{V_{i}}^{V_{f}}  -\frac{dV}{V} = \frac{f}{2} \int_{T_{i}}^{T_{f}} \frac{dT}{T}. \end{equation}
 then we get
 \begin{equation} \label{duw4} \textrm{ln}\frac{V_f}{V_i} = \frac{f}{2} \textrm{ln}\frac{T_i}{T_f}. \end{equation}
@@ -121,7 +121,7 @@ To remove the logarithmic sign, we have
 \begin{equation} \label{duw5} V_fT_f^{f/2} = V_iT_i^{f/2} = \textrm{const}. \end{equation}
 Alternatively, we can also rewrite it in the form of $P$ instead of $T$,
 \begin{equation} \label{duw6} V^{\gamma}P = \textrm{const}. \end{equation}
-where ${\gamma}$ = $\frac{f+2}{f}$ is called adiabatic exponent.\\
+where ${\gamma}$ = $\frac{f+2}{f}$ is called the adiabatic exponent.\\
 Homework: how to prove it? It will be intensively used in the following class!
 
 %\begin{figure}[h]

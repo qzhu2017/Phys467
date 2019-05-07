@@ -12,7 +12,7 @@ Show that during the quasi-static isothermal expansion, the change of entropy is
 \Delta{S}=\frac{Q}{T}     ~~~~~~~~ \rightarrow~~~~~~~~  T = \frac{Q}{\Delta{S}}
 \end{equation}
 
-It looks like $T$ is can expressed as energy divided by entropy.
+It looks like $T$ can expressed as energy divided by entropy.
 
 \begin{figure}[h]
 \centering
@@ -33,7 +33,7 @@ Since $S_\text{total}$ is simply the sum of $S_A$ and $S_B$, we now know
 \frac {\partial{S_A}} {\partial{U_A}} =  \frac {\partial{S_B}} {\partial{U_B}} 
 \end{equation}
 
-At the equilibrium, which quantity of $A$ and $B$ becomes equivalent. \\
+At equilibrium, which quantity of $A$ and $B$ becomes equivalent? \\
 The consequence of heat flow?\\
 Check the unit! Yes, the slope of $S_A$ is actually the reciprocal of $T$.\\
 Therefore we have
@@ -54,7 +54,7 @@ Calculate the slope of $S$-$q$ graph for various points. (assuming $\epsilon$=0.
 \begin{equation} S = Nk[\text{ln}(q/N)+1] = Nk\text{ln}U - Nk\text{ln}(\epsilon N) + Nk \end{equation}
 \begin{equation} T = (\frac {\partial{S}} {\partial{U}})^{-1} = (\frac{Nk}{U})^{-1}\end{equation}
 \begin{equation} U = NkT \end{equation}
-This is exactly the thermal equipartition theorem applied to Einstein Solid.
+This is exactly the thermal equipartition theorem applied to an Einstein Solid.
 
 \section{Ideal Gas}
 
@@ -65,7 +65,7 @@ This is exactly the thermal equipartition theorem applied to Einstein Solid.
 
 \section{Measuring Entropy}
 \begin{equation} dS = \frac{dU}{T} = \frac{Q}{T}   ~~~~~~~~~~~~~~~~~ \text{(constant volume, W = 0)}\end{equation}
-\begin{equation} dS = \frac{C_V}{T}   ~~~~~~~~~~~~~~~~~ \text{(constant volume, W = 0)}\end{equation}
+\begin{equation} dS = \frac{C_VdT}{T}   ~~~~~~~~~~~~~~~~~ \text{(constant volume, W = 0)}\end{equation}
 \begin{equation} \Delta{S} = S_f-S_i = \int^{T_f}_{T_i} \frac{C_V}{T} dT \end{equation}
 \begin{equation} \Delta{S} = \int^B_A \frac{C_V}{T} dT \end{equation}
 
@@ -74,9 +74,9 @@ However, solid crystals have residual entropy due to the random orientations, so
 For instance, each CO molecule has two possible orientations: CO or OC. Assuming they are completely random, what's the residual entropy of 1 mole CO?\\\\
 $S(0K)$ = $k$ln($\Omega$) = $k$ln$2^N$ = $Nk$ln2 = ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ = 5.8 J/K\\
 $S(300K)$ = $S(0K) + C_V \int^{300}_{0} \frac{1}{T} dT$ = 5.8 + 2.5*8.31*ln(300) = 5.8 + 118.50 = 124.30 J/K\\\\
-This value looks much smaller than the reference value in the appendix (197.67 J/K), because of constant volume assumption is not realistic.
+This value looks much smaller than the reference value in the appendix (197.67 J/K), because a constant volume assumption is not realistic.
 
-\section{Microscopic view}
+\section{Macroscopic view}
 \begin{figure}[h]
 \centering
 \begin{tikzpicture}[thick]

@@ -35,11 +35,11 @@ Let's call the two solids $A$ and $B$ separately. \\\\
 \end{figure}
 
 
-Assuming that $A$ and $B$ are weakly coupled (just like what we did on ideal gas model),
-the individual energies of the solids, $q_A$ and $q_B$ will change slowly.
+Assuming that $A$ and $B$ are weakly coupled (just like what we did on the ideal gas model),
+the individual energy units of the solids, $q_A$ and $q_B$ will change slowly.
 Under this assumption, the total number of energies $q_\text {total}$ will be simple the sum of $q_A$ and $q_B$.
 
-To make life easier, let's fix $q_\text{total}$, what's the number of multiplicity for any arbitrary $q_A$?
+To make life easier, let's fix $q_\text{total}$, what's the multiplicity for any arbitrary $q_A$?
 If we just count $A$,
 \begin{equation}
  \Omega(A) = \binom{q_A+N_A-1}{q_A},
@@ -72,25 +72,30 @@ $q(A)$ & $\Omega(A)$ & $q(B)$ & $\Omega(B)$ & $\Omega$(total)\\\hline
 \end{tabular}
 \end{table}
 
-\section{Stirling Approximation}
-To apply these formulas to large systems, we need a trick for evaluating factorials of large numbers. Here is a trick called {\bf Stirling approximation},
+\section{Stirling's Approximation}
+To apply these formulas to large systems, we need a trick for evaluating factorials of large numbers. Here is a trick called {\bf Stirling's approximation},
 \begin{equation}\label{stir}
-  N! = N^N e^{-N} \sqrt{2\pi N}
+  N! \approx N^N e^{-N} \sqrt{2\pi N}
 \end{equation}
 
-This can be roughly understood that $N$! is firstly approximated as $N^N$, then averaged by $(N/e)^N$, 
+This can be roughly understood that $N$! is first approximated as $N^N$, then averaged by $(N/e)^N$, 
 \begin{equation}
-  N! = N^N e^{-N} 
+  N! \approx N^N e^{-N} 
 \end{equation}
 
 A more elegant way to express $N$! is to use the so called \textbf{Gamma function}. Suppose you start with the integral,
-\begin{equation} \int ^\infty _0 e^{-ax} dx = 1/a \end{equation}
-and repeat doing differentiation with respect to $a$, you will eventually get
-\begin{equation} \int ^\infty _0 x^n e^{-ax} dx = n! a^{-(n+1)} \end{equation}
+\begin{equation} 
+\int ^\infty _0 e^{-ax} dx = 1/a 
+\end{equation}
+
+and differentiate repeatedly with respect to $a$, you will eventually get
+\begin{equation} 
+\int ^\infty _0 x^n e^{-ax} dx = n! a^{-(n+1)} 
+\end{equation}
 Starting with this equation, you are able to prove eq \ref{stir}.
 From the above, you can get the logarithm as follows
 \begin{equation}\label{s1}
-      \ln N!  = N \ln N - N - 1/2 \ln (2\pi N) 
+      \ln N!  \approx N \ln N - N - 1/2 \ln (2\pi N) 
 \end{equation}
 
 When N is very large, we can safely remove the last term,
@@ -133,7 +138,7 @@ for $q$=[100, 1000], plot them and try to explain the differences. (hint: 2 plot
 \begin{figure}[h]
 \centering
 \includegraphics[width=8cm]{imgs/Stirling.pdf}
-\caption{The accuracy of Stirling approximation. }
+\caption{The accuracy of Stirling's approximation. }
 \end{figure}
 
 \item The Gamma function is defined as 
@@ -142,7 +147,7 @@ write a code to show the comparison of $\Gamma(n+1)$, $n$!, and $\sqrt{2\pi n}(n
 \begin{figure}[h]
 \centering
 \includegraphics[width=6cm]{imgs/Stirling2.pdf}
-\caption{Comparison between the Gamma function and Stirling approximation. }
+\caption{Comparison between the Gamma function and Stirling's approximation. }
 \end{figure}
 
 

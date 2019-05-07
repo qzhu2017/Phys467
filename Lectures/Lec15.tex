@@ -1,11 +1,7 @@
 \lecture{15}{Free Energy}{Qiang Zhu}{scribe-name1,2,3}
 
 \section{Outline}
-In the previous chapter, we applied the laws of thermodynamics to study cyclic process.
-Now let's turn to chemical reactions and other phase transformations of matter. 
-One complication is that the system usually involves interaction with its surroundings,
-in thermal, mechanical, chemical ways. Therefore, energy is not conserved in these cases.
-Instead, $T$, $P$, $\mu$ become crucial parameters.
+In the previous chapter, we applied the laws of thermodynamics to study cyclic processes. Now let's turn to chemical reactions and other phase transformations of matter. One complication is that the system usually involves interactions with its surroundings, in thermal, mechanical, chemical ways. Therefore, energy is not conserved in these cases. Instead, $T$, $P$, $\mu$ become crucial parameters.
 
 \section{Free Energy}
 The first task is to develop the conceptual tools needed to understand constant $T$, $P$ processes.
@@ -14,7 +10,7 @@ Recall we have defined the concept of enthalpy ($H$),
 H \equiv U + PV
 \end{equation}
 Let's understand it in this way. If you could completely annihilate the system, $H$ is the energy cost you need to pay.
-In addition to its internal energy ($U$), you also need plus $PV$ work.
+In addition to its internal energy ($U$), you also need to plus $PV$ work.
 
 Similarly, we have two more useful quantities that are related to energy and analogous to $H$,
 \begin{equation} \label{entropy} 
@@ -25,7 +21,7 @@ F \equiv U - TS    ~~~~~~~~~ \text{(Helmholtz free energy, constant temperature 
 G \equiv U - TS + PV   ~~~~~~~~~ \text{(Gibbs free energy, constant temperature, constant pressure )}
 \end{equation}
 
-The four functions $U, H, F, G$ are collectively called thermodynamic potentials. Their relations are showed as follows,
+The four functions $U, H, F, G$ are collectively called thermodynamic potentials. Their relations are shown as follows,
 \begin{figure}[h]
 \centering
 \begin{tikzpicture}[thick]
@@ -71,7 +67,7 @@ $T\Delta{S}$(kJ)     &           &         &         &   -48.3  \\\hline
 $\Delta{G}$(kJ)      &           &         &         &   237.1  \\\hline
 \end{tabular}
 
-The reverse reaction is the combustion of hydrogen gas, a reaction that might replace the internal combustion of engine in future automobiles (fuel cell).
+The reverse reaction is the combustion of hydrogen gas, a reaction that might replace the internal combustion engine in future automobiles (fuel cell).
 In the process of producing the electric work, the fuel cell will also dump 49 kJ of waste heat.
 But the waste heat is only 17\% of heat generated from this reaction. So an ideal hydrogen fuel cell has an `efficiency' of 83\%, much better than any practical engine.
 
@@ -93,7 +89,7 @@ But the waste heat is only 17\% of heat generated from this reaction. So an idea
 \section{Thermodynamic Identities}
 In the previous chapter, we already learned
 \begin{equation} dU = TdS - PdV + \mu dN \end{equation}
-What will happened on $H$, $F$, $G$?
+What will happen on $H$, $F$, $G$?
 
 \begin{equation} 
 \begin{split}
@@ -105,7 +101,7 @@ dH  = &  dU + PdV + VdP   \\
 Similarly, we could derive that 
 \begin{equation} 
 \begin{split}
-dF  = &  dU - TdS + SdT   \\
+dF  = &  dU - (TdS + SdT)   \\
     = & -SdT  - PdV + \mu dN 
 \end{split}
 \end{equation}
@@ -119,13 +115,13 @@ dG  = & dF + PdV + VdP   \\
 
 Accordingly, we can derive the partial derivatives from $G$,
 \begin{equation} S   = -(\frac{\partial {G}}{\partial {T}})_{P,N} \end{equation}
-\begin{equation} V   = -(\frac{\partial {G}}{\partial {P}})_{T,N} \end{equation}
-\begin{equation}\mu  = -(\frac{\partial {G}}{\partial {N}})_{T,P} \end{equation}
+\begin{equation} V   = (\frac{\partial {G}}{\partial {P}})_{T,N} \end{equation}
+\begin{equation}\mu  = (\frac{\partial {G}}{\partial {N}})_{T,P} \end{equation}
 
 
 \section{Maxwell Relation}
 Functions encountered in physics are generally well enough behaved that their
-mixed partial derivatives do not depend on which derivatives is taken first. For instance,
+mixed partial derivatives do not depend on which derivatives are taken first. For instance,
 \begin{equation} 
                  \frac {\partial}{\partial V} (\frac{\partial U}{\partial S}) 
                = \frac {\partial}{\partial S} (\frac{\partial U}{\partial V})
@@ -133,14 +129,14 @@ mixed partial derivatives do not depend on which derivatives is taken first. For
 From the thermodynamic identities (for $U$), we can evaluate the partial derivatives,
 \begin{equation} 
                (\frac{\partial T}{\partial V})_S
-               = (\frac{\partial P}{\partial S})_V
+               = -(\frac{\partial P}{\partial S})_V
 \end{equation}
 Similarly, we apply it on $H$,$F$,$G$,
 \begin{equation} \frac {\partial}{\partial P} (\frac{\partial H}{\partial S}) 
                = \frac {\partial}{\partial S} (\frac{\partial H}{\partial P})
                ~~~ \rightarrow ~~~~
                 (\frac{\partial T}{\partial P})_S
-               = (\frac{\partial S}{\partial V})_P
+               = (\frac{\partial V}{\partial S})_P
 \end{equation}
 \begin{equation} \frac {\partial}{\partial V} (\frac{\partial F}{\partial T}) 
                = \frac {\partial}{\partial T} (\frac{\partial F}{\partial V})
@@ -152,15 +148,15 @@ Similarly, we apply it on $H$,$F$,$G$,
                = \frac {\partial}{\partial T} (\frac{\partial G}{\partial P})
                ~~~ \rightarrow ~~~~
                 (\frac{\partial S}{\partial P})_T
-               = (\frac{\partial V}{\partial T})_P
+               = -(\frac{\partial V}{\partial T})_P
 \end{equation}
 
-These are {\bf Maxwell relation}. It is useful because it could quantify the changes of 
+These are {\bf Maxwell relations}. It is useful because it could quantify the changes of 
 entropy which are not directly measurable, in terms of measurable quantities like $T,V,P$.
 Here let me just give some of its applications.
 The thermal expansion coefficient is defined as follows,
 \begin{equation}
-\beta = \frac{\Delta{V}/V}{\Delta{T}} = \frac{1}{V}(\frac{\partial V}{\partial T})_P
+\beta = \frac{\Delta{V}/V}{\Delta{T}} = -\frac{1}{V}(\frac{\partial V}{\partial T})_P
 \end{equation}
 Plugging in the Maxwell relation,
 \begin{equation}
@@ -170,13 +166,13 @@ Plugging in the Maxwell relation,
 
 According to the 3rd law, entropy approaches to 0 or some constant regardless of $P$. Hence $\beta$ = 0 when $T$ goes to 0.
 
-Now let's dig a bit on the difference between $C_V$ and $C_P$
+Now let's dig into the difference between $C_V$ and $C_P$
 \begin{equation}
 dS = (\frac{\partial{S}}{\partial{T}})_V dT + (\frac{\partial{S}}{\partial{V}})_T dV
 \end{equation}
 
 \begin{equation}
-dV = (\frac{\partial{V}}{\partial{T}})_V dT + (\frac{\partial{V}}{\partial{P}})_T dP
+dV = (\frac{\partial{V}}{\partial{T}})_p dT + (\frac{\partial{V}}{\partial{P}})_T dP
 \end{equation}
 
 \begin{equation}
@@ -192,7 +188,7 @@ C_P = C_V + T(\frac{\partial{S}}{\partial{V}})_T (\frac{\partial{V}}{\partial T}
 \end{equation}
 
 \begin{equation}
-C_P = C_V + T(\frac{\partial{P}}{\partial{T}})_V (\frac{\partial{V}}{\partial P})_P
+C_P = C_V + T(\frac{\partial{P}}{\partial{T}})_V (\frac{\partial{V}}{\partial T})_P
 \end{equation}
 
 from problem 1.46,

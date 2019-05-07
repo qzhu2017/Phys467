@@ -1,22 +1,18 @@
 \lecture{18}{Phase Transformation of Mixtures}{Qiang Zhu}{scribe-name1,2,3}
 
 
-\section{Free Energy of Mixture}
-Phase Transformations become more complicated when a system contains two or more types of particles.
-For example, what will happen if you lower the temperature of this mixture at 1 atm.
-You might expect that all the oxygen will liquefy at 90.2 K, leaving a gas of pure nitrogen which 
-would transform to liquid till 77.4 K. However, no liquid at all forms until the temperature drops to 81.6 K.
-Similar behaviors happen on liquid-solid transition as well. How to understand it?
+\section{Free Energy of a Mixture}
+Phase Transformations become more complicated when a system contains two or more types of particles. For example, what will happen if you lower the temperature of this mixture at 1 atm? You might expect that all the oxygen will liquefy at 90.2 K, leaving a gas of pure nitrogen which would transform to liquid till 77.4 K. However, no liquid at all forms until the temperature drops to 81.6 K. Similar behaviors happen on liquid-solid transitions as well. How can we understand this?
 
 \begin{figure}[h]
 \centering
 \label{ideal-mix}
 \includegraphics[width=12cm]{imgs/Ideal-Mixture.pdf}
-\caption{The Phase diagram of ideal mixture, where $TS$ is the only term to contribute to $\Delta{G}$. }
+\caption{The Phase diagram of an ideal mixture, where $TS$ is the only term to contribute to $\Delta{G}$. }
 \end{figure}
 
 
-The key is to look at the Gibbs free energy as we did on vdW model. Let's consider a system of two molecules, $A$
+The key is to look at the Gibbs free energy as we did on the vdW model. Let's consider a system of two molecules, $A$
 and $B$, suppose that they are initially separated, sitting side by side at the same temperature and pressure. For
 an unmixed system, the total free energy is just the sum of the two subsystems,
 \begin{equation}
@@ -28,19 +24,19 @@ Now suppose that we remove the partition between two sides and let them mix. Fro
 \begin{enumerate}
 \item $U$, depends on the intermolecular forces
 \item $V$, depends on the forces as well
-\item $S$, must increase according to what we learn in chapter 2.
+\item $S$, must increase according to what we learned in chapter 2.
 \end{enumerate}
 
-For the case of ideal gas (Fig. \ref{ideal-mix}), we can assume $U,V$ don't change.
+For the case of the ideal gas (Fig. \ref{ideal-mix}), we can assume $U,V$ don't change.
 
 Therefore the free energy of the mixture becomes,
 \begin{equation}
 G = (1-x)G_A + xG_B + RT[x\text{ln}x + (1-x)\text{ln}(1-x)]
 \end{equation}
 
-Note this only applies to ideal mixture. For real cases such as the mixing of liquids, it would usually cause the increase of $U$.
+Note this only applies to an ideal mixture. For real cases such as the mixing of liquids, it would usually cause the increase of $U$.
 
-Let $n$ be the average number of the nearest neighbours, $\mu_0$ be the average potential energy of A-A or B-B interaction,
+Let $n$ be the average number of the nearest neighbors, $\mu_0$ be the average potential energy of A-A or B-B interactions,
 \begin{equation}
 U = 1/2Nn\mu_0   
 \end{equation}
@@ -61,7 +57,7 @@ Therefore,
 \begin{figure}[h]
 \centering
 \includegraphics[width=12cm]{imgs/NonIdeal-Mixture.pdf}
-\caption{The Phase diagram of non-ideal mixture, where only $\Delta{U}$ also contributes to $\Delta{G}$. When $\Delta{U}$ is positive, there exists 
+\caption{The Phase diagram of non-ideal mixture, where only $\Delta{U}$ contributes to $\Delta{G}$. When $\Delta{U}$ is positive, there exists 
 a competition between $U$ and $TS$.}
 \label{fig-non-ideal}
 \end{figure}
@@ -72,13 +68,13 @@ The qualitative results are shown in Fig. \ref{fig-non-ideal}. If $\mu_{AB}$ is 
 \centering
 \includegraphics[width=10cm]{imgs/two-solids.pdf}
 \label{fig-calc}
-\caption{The Phase diagram of two systems which are not miscible to each other. In the intermediate region, the phase is a mixture of $\alpha$ and $\beta$.
-This is called \textbf{solubility gap}.}
+\caption{The Phase diagram of two systems which are not miscible with each other. In the intermediate region, the phase is a mixture of $\alpha$ and $\beta$.
+This is called the \textbf{solubility gap}.}
 \end{figure}
 
 
 \section{Phase diagram of a Miscible Mixture}
-Let's come back to the problem of liquefy air. 
+Let's come back to the problem of liquefying air. 
 \begin{enumerate}
 \item $T_A$, oxygen will start to liquefy at 90.2 K 
 \item $T_B$, nitrogen will completely become liquid at 77.4 K. 
@@ -95,13 +91,13 @@ $T-x$ diagram\\
 
 
 \section{Phase Diagram of Eutectic Mixture}
-Most two solids do not maintain the same crystal structures over the entire range of composition. If we consider the the solid-liquid transition with the possibility of two solid phases, this picture will become more complicated. Again the idea is to look at the free energy at various temperatures. Suppose $T_B$ is the melting point of B and $T_A$ is the melting point of A. 
+Most two-components solids do not maintain the same crystal structures over the entire range of composition. If we consider the the solid-liquid transition with the possibility of two solid phases, this picture will become more complicated. Again the idea is to look at the free energy at various temperatures. Suppose $T_B$ is the melting point of B and $T_A$ is the melting point of A. 
 
 \begin{enumerate}
     \item At high temperatures the free energy of the liquid will be below that of either solid phase. 
-    \item As the temperature drops, all three energy functions will increase ($\frac{\partial G}{\partial T}=-S$), but the free energy of the liquid will increase fastest because it has higher $TS$ term. Below $T_B$ the liquid's free energy curve will intersect that of the B phase, so there is a range of compositions for which the stable configuration is an unmixed combination of liquid and B. 
-    \item as T decreased further, this range reaches the A side of the diagram and you will find the range of an unmixed combination of liquid and A.
-    \item if we drop the T further, we will find that A+liquid and B+liquid will meet at a particular point (\textbf{Eutectic point}). An Eutectic point defines the lowest melting point of the system. 
+    \item As the temperature drops, all three energy functions will increase ($\frac{\partial G}{\partial T}=-S$), but the free energy of the liquid will increase fastest because it has a larger $TS$ term. Below $T_B$ the liquid's free energy curve will intersect that of the B phase, so there is a range of compositions for which the stable configuration is an unmixed combination of liquid and B. 
+    \item As $T$ decreases further, this range reaches the A side of the diagram and you will find the range of an unmixed combination of liquid and A.
+    \item If we drop the T further, we will find that A+liquid and B+liquid will meet at a particular point (\textbf{Eutectic point}). An Eutectic point defines the lowest melting point of the system. 
 \end{enumerate}
 
 \begin{figure}[ht]

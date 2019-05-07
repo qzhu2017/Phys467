@@ -3,7 +3,7 @@
 
 
 \section{Mechanical Equilibrium and Pressure}
-In the last lecture, we just learned the relation between $S$ and $T$, is there any analogy between $S$ and $P$.
+In the last lecture, we just learned the relation between $S$ and $T$, is there any analogy between $S$ and $P$?
 
 \begin{figure}[h]
 \centering
@@ -24,7 +24,7 @@ Again, we start from the condition when the system reaches its equilibrium,
 \begin{equation} \label{entropy} 
 \frac {\partial{S_\text{total}}} {\partial{U_A}}=0     ~~~~~~~~ \rightarrow~~~~~~~~  \frac {\partial{S_\text{total}}} {\partial{V_A}}=0
 \end{equation}
-as, $S$ is the function of $U$ and $V$.
+as $S$ is a function of $U$ and $V$.
 
 We already applied the 1st condition in the previous lecture. How about the 2nd condition? 
 \begin{equation} \label{entropy} 
@@ -41,7 +41,7 @@ P = T (\frac {\partial{S}} {\partial{V}})_{U,N}
 
 Recall that we know how to calculate $S$,
 \begin{equation} S = Nk\text{ln}V + 3/2Nk\text{ln}U - Nk\text{ln}(f(N)) \end{equation}
-\begin{equation} P = T(\frac {\partial{S}} {\partial{V}})  = \frac{NKT}{V}\end{equation}
+\begin{equation} P = T(\frac {\partial{S}} {\partial{V}})  = \frac{NkT}{V}\end{equation}
 \begin{equation} PV = NkT \end{equation}
 Again, we proved the ideal gas law.
 
@@ -59,11 +59,10 @@ Suppose each step is very small, we use
 \begin{equation} dS = \frac{dU}{T} + \frac{PdV}{T}  \end{equation}
 \begin{equation} TdS = dU + PdV  \end{equation}
 \begin{equation} dU = TdS - PdV  \end{equation}
-This is {\bf Thermodynamic Identity}
-If you compare it with the 1st law, it just substitute $TdS$ as $Q$, which is actually the old definition of entropy.
+This is the {\bf Thermodynamic Identity}. If you compare it with the 1st law, it just substitutes $TdS$ with $Q$, which is actually the old definition of entropy.
 \begin{enumerate}
-\item $\Delta{U}=0$, $dU=TdS$
-\item $\Delta{V}=0$, $TdS=PdV$
+\item $\Delta{U}=0$, $TdS=PdV$
+\item $\Delta{V}=0$, $dU=TdS$
 \end{enumerate}
 
 {\bf Exercise}
@@ -73,16 +72,16 @@ Under constant entropy
 isentropic = quasistatic + adiabatic \\
 \begin{equation} \Delta{S} = S_f-S_i = \int^{T_f}_{T_i} \frac{C_P}{T} dT \end{equation}
 $S(300K)$ = $S(0K) + C_P \int^{300}_{0} \frac{1}{T} dT$ = 5.8 + 3.5*8.31*ln(300) = 173.89 J/K.\\
-This value looks much smaller than the reference value in the appendix (197.67 J/K), because of constant volume assumption is not realistic.
+This value looks much smaller than the reference value in the appendix (197.67 J/K), because a constant volume assumption is not realistic.
 A more realistic solution is
 \begin{equation} \Delta{S} = C_V\text{ln}\frac{P_B}{P_A} + C_P\text{ln}\frac{V_B}{V_A}\end{equation}
-when you consider $Q = U-W$.
+when you consider $Q = \Delta U-W$.
 
 \begin{equation} \Delta{S} = \frac{Q}{T} ~~~~~~~~\text{quasistatic}\end{equation}
 \begin{equation} \Delta{S} > \frac{Q}{T} ~~~~~~~~\text{in practice}\end{equation}
 
 \begin{enumerate}
-\item Very faster compression
+\item Very faste compression
 \item free expansion
 \end{enumerate}
 

@@ -2,10 +2,7 @@
 \lecture{13}{Engines and Refrigerators}{Qiang Zhu}{scribe-name1,2,3}
 
 \section{Heat Engines and Refrigerators}
-A heat engine is any device that absorbs heat and converts part of that energy into work.
-Unfortunately, only part of the energy absorbed as heat can be converted to work. 
-The reason is that the the heat, as it flows in, brings along entropy, which must somehow
-to be disposed as waste. 
+A heat engine is any device that absorbs heat and converts part of that energy into work. Unfortunately, only part of the energy absorbed as heat can be converted to work. The reason is that the heat, as it flows in, brings along entropy, which must somehow be disposed as waste. 
 
 \begin{figure}[ht]
 \centering
@@ -36,35 +33,35 @@ to be disposed as waste.
 \caption{The schemes of cold and heat engines.}
 \end{figure}
 
-The benefit of heat engine is the work produced, $W$. Let's define the efficiency $e$,
+The benefit of a heat engine is the work produced, $W$. Let's define the efficiency $e$,
 \begin{equation} e = \frac{W}{Q_h} \end{equation}
-Because of 1st law,
+Because of the 1st law,
 \begin{equation} Q_h = Q_c + W \end{equation}
 \begin{equation} e = \frac{Q_h-Q_c}{Q_h} = 1 - \frac{Q_c}{Q_h} \end{equation}
 
 According to the definition of entropy,
-\begin{equation}    S2 >= S1              ~~~~~~\rightarrow~~~~~~~ 
-       \frac{Q_c}{T_c} >= \frac{Q_h}{T_h} ~~~~~~\rightarrow~~~~~~~
-       \frac{Q_c}{Q_h} >= \frac{T_c}{T_h} 
+\begin{equation}    S2 \geq S1              ~~~~~~\rightarrow~~~~~~~ 
+       \frac{Q_c}{T_c} \geq \frac{Q_h}{T_h} ~~~~~~\rightarrow~~~~~~~
+       \frac{Q_c}{Q_h} \geq \frac{T_c}{T_h} 
 \end{equation}
 Therefore, we conclude
-\begin{equation} e<=1-\frac{T_c}{T_h} \end{equation}
+\begin{equation} e \leq 1-\frac{T_c}{T_h} \end{equation}
 
 
 \section{Refrigerator}
-The benefit of refrigerator is $Q_c$. Let's define the efficiency $e$,
+The benefit of a refrigerator is $Q_c$. Let's define the efficiency $e$,
 \begin{equation} e = \frac{Q_c}{W} \end{equation}
-Because of 1st law,
+Because of the 1st law,
 \begin{equation} Q_h = Q_c + W \end{equation}
 \begin{equation} e = \frac{Q_c}{Q_h-Q_c} = \frac{1}{Q_h/Q_c-1} \end{equation}
 
 According to the entropy relation,
-\begin{equation}    S2 >= S1              ~~~~~~\rightarrow~~~~~~~ 
-       \frac{Q_c}{T_c} >= \frac{Q_h}{T_h} ~~~~~~\rightarrow~~~~~~~
-       \frac{Q_c}{Q_h} >= \frac{T_c}{T_h} 
+\begin{equation}    S2 \geq S1              ~~~~~~\rightarrow~~~~~~~ 
+       \frac{Q_c}{T_c} \geq \frac{Q_h}{T_h} ~~~~~~\rightarrow~~~~~~~
+       \frac{Q_c}{Q_h} \geq \frac{T_c}{T_h} 
 \end{equation}
 Therefore, we conclude
-\begin{equation} e<=\frac{1}{T_h/T_c-1} \end{equation}
+\begin{equation} e \leq \frac{1}{T_h/T_c-1} \end{equation}
 
 \section{To calculate the efficiency}
 Suppose 1 mol He undergoes the following cycles, in which $P_2$ = 2$P_1$, $V_4$=2$V_1$. Calculate 
@@ -81,10 +78,10 @@ the heat transfer ($Q$) for each step, and the efficiency of the engine.\\
 
 
 \section{The Carnot Cycle}
-How to reach the ideal efficiency?\\
+How to avoid an increase in entropy?\\
 In order to avoid entropy's increase, we need to \\
-1, keep $T_h$ = $T_\text{gas}$ and $T_c$ = $T_\text{gas}$ during heat transfer;\\
-2, In the course of temperature drop from $T_h$ and $T_c$, we use adiabatic condition to avoid heat waste.
+1. keep $T_h$ = $T_\text{gas}$ and $T_c$ = $T_\text{gas}$ during heat transfer;\\
+2. In the course of temperature dropping from $T_h$ and $T_c$, we use adiabatic conditions to avoid heat waste.
 \begin{figure}[ht]
 \centering
 \begin{tikzpicture}[x=6cm, y=8cm]
@@ -101,8 +98,8 @@ In order to avoid entropy's increase, we need to \\
 {\bf Exercises}\\
 \begin{enumerate}
 \item Why must you put an air conditioner in the window of a building, rather than in the middle of a room?
-\item Can you cool off your kitchen by refrigerator door open?
-\item Prove that the efficiency of cannot engine is 1-$\frac{T_c}{T_h}$
+\item Can you cool off your kitchen by leaving the refrigerator door open?
+\item Prove that the efficiency of a Carnot engine is 1-$\frac{T_c}{T_h}$
 \end{enumerate}
 
 \section{Homework}

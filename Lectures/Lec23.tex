@@ -11,15 +11,15 @@ In the very first lecture, we briefly mentioned a microscopic model to link the 
 \begin{equation} \label{PV-micro} PV = Nm{\overline v_x^2} = NkT\end{equation}
 
 But this is just a sort of average. Technically, the speeds of particles should follow some distribution.
-Let's call it as $D(v)$. What's the dependence of $D(v)$?
+Let's call it $D(v)$. What's the dependence of $D(v)$?
 
 The first factor should be just the Boltzmann factor. 
 \begin{equation}
 D(v) \propto e^{E/kT} = e^{-mv^2/2kT}
 \end{equation}
-This only accounts for ideal gas, where the transnational motion is independent of other variables.
+This only accounts for an ideal gas, where the transnational motion is independent of other variables.
 
-The second factor should be the velocity space. For a give $v$, it could be in any directions. The the space is $4\pi v^2$.
+The second factor should be the velocity space. For a given $v$, it could be in any direction. The the space is $4\pi v^2$.
 Therefore,
 \begin{equation}
 D(v) = C \cdot 4\pi v^2 e^{-mv^2/2kT}
@@ -27,7 +27,7 @@ D(v) = C \cdot 4\pi v^2 e^{-mv^2/2kT}
 
 Where $C$ is a constant. According to 
 \begin{equation}
-1 = \int _0 ^{\infty} D(v)dv  = C \cdot 4\pi v^2 e^{-mv^2/2kT} dv
+1 = \int _0 ^{\infty} D(v)dv  = C \cdot 4\pi \int_0^{\infty}v^2 e^{-mv^2/2kT} dv
 \end{equation}
 
 Changing variables to $x = v\sqrt{m/2kT}$,
@@ -35,14 +35,14 @@ Changing variables to $x = v\sqrt{m/2kT}$,
 1 =  4\pi C (\frac{2kT}{m})^{3/2}  \int _0 ^{\infty} x^2 e^{-x^2} dx
 \end{equation}
 
-By using some trick, you can find
+By using some tricks, you can find
 \begin{equation}
 \int _0 ^{\infty} x^2 e^{-x^2} dx = \sqrt{\pi}/4
 \end{equation}
 
 Therefore, $C=(m/2\pi kT)^{3/2}$.
 
-Our final results is therefore,
+Our final result is therefore,
 \begin{equation}
 D(v) = (\frac{m}{2\pi kT})^{3/2}4\pi v^2 e^{-mv^2/2kT}
 \end{equation}
@@ -73,15 +73,14 @@ The most likely speed:
 
 
 \section{Partition Function and Free Energy}
-For a system in equilibrium with a reservoir at temperature $T$, the quantity most analogous to $\Omega$
-is $Z$. Does the natural logarithm of $Z$ has some meaning?
+For a system in equilibrium with a reservoir at temperature $T$, the quantity most analogous to $\Omega$ is $Z$. Does the natural logarithm of $Z$ have some meaning?
 
 Recall the definition of $F = U - TS$, the partial derivative with respect to $T$ is
 \begin{equation}
-(\frac{\partial F}{\partial{T}})_{V,N} = -S = \frac{F-H}{T}
+(\frac{\partial F}{\partial{T}})_{V,N} = -S = \frac{F-U}{T}
 \end{equation}
 
-This is a differential equation for the function $F(T)$, for any given $V$ and $V$. If we use $\bar{F}$ to 
+This is a differential equation for the function $F(T)$, for any given $V$ and $N$. If we use $\bar{F}$ to 
 express the $kT\text{ln}Z$, then
 \begin{equation}
 \frac{\partial{\bar{F}}}{\partial T} = \frac{\partial}{\partial T}(-kT\text{ln}Z) = -k\text{ln}Z - kT \frac{\partial}{\partial T}\text{ln}Z
@@ -89,7 +88,7 @@ express the $kT\text{ln}Z$, then
 
 In the 2nd term, we rewrite it in terms of $\beta=1/kT$
 \begin{equation}
-\frac{\partial}{\partial T}\text{ln}Z = \frac{\partial{\beta}}{\partial T} \frac{\partial}{\partial T}\text{ln}Z 
+\frac{\partial}{\partial T}\ln Z = \frac{\partial{\beta}}{\partial T} \frac{\partial}{\partial \beta}\ln Z 
                                       = \frac{-1}{kT^2} \frac{1}{Z} \frac{\partial Z}{\partial {\beta}} 
                                       = \frac{U}{kT^2}
 \end{equation}
@@ -99,7 +98,7 @@ Therefore,
 \frac{\partial{\bar{F}}}{\partial T} = -k\text{ln}Z - kT \frac{U}{kT^2} = \frac{\bar{F}-U}{T}
 \end{equation}
 
-Therefore, $\bar{F}$ obeys the exactly same differential equation as $F$.
+Therefore, $\bar{F}$ obeys exactly the same differential equation as $F$.
 
 At $T$=0, the original $F$ is simply equal to $U$, the energy must be the lowest possible energy $U_0$, since the Boltzmann
 factors for all excited states will be infinitely suppressed in comparison to the ground state. Therefore,
@@ -107,10 +106,11 @@ factors for all excited states will be infinitely suppressed in comparison to th
 \bar{F}(0)= -kT\text{ln}Z(0)= U(0) = F(0)
 \end{equation}
 
-This relation could be very useful to compute entropy, pressure, and so on.
+This relation can be very useful to compute entropy, pressure, and so on.
 \begin{equation}
-S = -(\frac{\partial{F}}{\partial{T}})_{V,N} ~~~~  P = -(\frac{\partial{F}}{\partial{T}})_{T,N} 
-~~~~~~ \mu = (\frac{\partial{F}}{\partial{N}})_{V,T}
+S = -(\frac{\partial{F}}{\partial{T}})_{V,N} ~~~~  
+P = -(\frac{\partial{F}}{\partial{V}})_{T,N} ~~~~~~ 
+\mu = (\frac{\partial{F}}{\partial{N}})_{V,T}
 \end{equation}
 
 

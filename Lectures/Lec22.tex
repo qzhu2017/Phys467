@@ -6,7 +6,7 @@
 %**** IN GENERAL, BE BRIEF. LONG SCRIBE NOTES, NO MATTER HOW WELL WRITTEN,
 %**** ARE NEVER READ BY ANYBODY.
 
-\section{Averaged Values}
+\section{Average Values}
 In the previous section, we saw how to calculate the probability that a system is in any particular one of its
 microstates in equilibrium with a reservoir at $T$. In the statistical mechanical systems that we are considering,
 each probability is given by 
@@ -19,14 +19,14 @@ Similarly, the average value of any other variable of interest can be computed i
 \bar{X} = \frac{1}{Z} \sum_s X(s)e^{-\beta E(s)}
 \end{equation}
 
-By using this equation, we will get the averaged value of any property. In statistical mechanics, we shall also
+By using this equation, we will get the average value of any property. In statistical mechanics, we shall also
 understand the fluctuations.
 
-A very nice feature on partition function is that 
+A very nice feature of the partition function is that 
 \begin{equation}
 \bar{E} = -\frac{1}{Z} \frac{\partial{Z}}{\partial{\beta}} = -\frac{\partial{\text{ln}Z}}{\partial {\beta}}
 \end{equation}
-when $\beta$ = 1/$kT$. These formula can be extremely useful when you have an explicit formula for $Z$
+when $\beta$ = 1/$kT$. These formulas can be extremely useful when you have an explicit formula for $Z$
 \begin{equation}
 \bar{E^2} = \frac{1}{Z} \frac{\partial^2{Z}}{\partial{\beta^2}} 
 \end{equation}
@@ -53,12 +53,12 @@ we can approximate the sum as an integral that yields a very simple result.
 \caption{The partition sum for two different temperatures. }
 \end{figure}
 
-If we draw the curve, it could clearly seen that the partition function is approximately the area under this curve at high $T$
+If we draw the curve, we could clearly see that the partition function is approximately the area under this curve at high $T$
 \begin{equation}
-Z_\text{rot} = \int_{0}^{\infty}(2j+1) e^{-j(j+1) \epsilon /kT} dj = \frac{kT}{\epsilon}  ~~~~~~~~(\text{when} kT >> \epsilon)
+Z_\text{rot} \approx \int_{0}^{\infty}(2j+1) e^{-j(j+1) \epsilon /kT} dj = \frac{kT}{\epsilon}  ~~~~~~~~(\text{when} ~kT >> \epsilon)
 \end{equation}
  
-As expected, the partition function increases when $T$ increases. For CO at room $T$, Z is slightly greater than 100.
+As expected, the partition function increases when $T$ increases. For CO at room $T$, $Z_\text{rot}$ is slightly greater than 100.
 
 With such approximation, we can then calculate the energy as well,
 \begin{equation}
@@ -66,11 +66,11 @@ With such approximation, we can then calculate the energy as well,
                    = -(\beta\epsilon) \frac{\partial(1/\beta\epsilon)}{\partial{\beta}}=1/kT
 \end{equation}
  
-This is just the prediction of equipartition theorem, since a diatomic molecule has two rotational degrees of freedom. 
+This is just the prediction of the equipartition theorem, since a diatomic molecule has two rotational degrees of freedom. 
 At low temperature, the 3rd law tells us that the heat capacity must go to zero.
 Above is the case of diatomic molecules made of different atoms. If it is N$_2$, 
 \begin{equation}
-Z_\text{rot} = \frac{kT}{\epsilon}
+Z_\text{rot} \approx \frac{kT}{2\epsilon}
 \end{equation}
  
 But this won't effect the energy and heat capacities. (problem 6.30)
@@ -90,7 +90,7 @@ The partition function is
 Z = \sum_q e^{-\beta E(q)} = \sum_q e^{-\beta cq^2}
 \end{equation}
 
-Again, we can transform the sum to integration
+Again, we can transform the sum to an integral
 \begin{equation}
 Z = \frac{1}{\Delta{q}} \int_{-\infty}^{\infty}  e^{-\beta cq^2} dq
 \end{equation}
@@ -101,7 +101,7 @@ Let $x=\sqrt{\beta c}q$, so
 Z = \frac{1}{\Delta{q}\sqrt{\beta c}}\int_{-\infty}^{\infty}  e^{-x^2} dx
 \end{equation}
 
-The function $e^{-x^2}$ is call Gaussian function.
+The function $e^{-x^2}$ is called a Gaussian function.
 \begin{equation}
 \int_{-\infty}^{\infty}  e^{-x^2} dx = \sqrt{\pi}
 \end{equation}
@@ -110,13 +110,13 @@ Therefore,
 \begin{equation}
 Z = \frac{1}{\Delta{q}} \sqrt{\frac{\pi}{\beta c}} = C\beta^{-1/2}
 \end{equation}
-where $C=\sqrt{\pi/c}\Delta{q}$
+where $C=\sqrt{\pi/c}/\Delta{q}$
 
 and the energy can be readily computed,
 \begin{equation}
-E = -\frac{1}{Z} \frac{\partial Z}{\partial {\beta}} = ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ = \frac{1}{2}kT
+\bar{E} = -\frac{1}{Z} \frac{\partial Z}{\partial {\beta}} = ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ = \frac{1}{2}kT
 \end{equation}
 
-The limitation of the theorem, note that we actually used the integration to replace sum, which is correct when the spacing between energy level ($\epsilon$) is much less than $kT$.
+The limitation of the theorem is that we actually used the integral to replace the sum, which is correct when the spacing between energy level ($\epsilon$) is much less than $kT$.
 
 
