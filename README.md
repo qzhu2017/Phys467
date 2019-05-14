@@ -7,6 +7,8 @@ Lecture notes for Phys467 in UNLV
 - Boltzmann statistics
 - Quantum statistics of ideal gas and simple solid
 
+We main use the following textbook [An Introduction to Thermal Physics, D. Schroeder](https://www.pearson.com/us/higher-education/program/Schroeder-Introduction-to-Thermal-Physics-An/PGM87720.html?tab=overview)
+
 ## Table of Contents
 - [Syllabus](http://www.physics.unlv.edu/~qzhu/Teaching/ThermalPhysics//syllabus.pdf)
 - Lecture_01 [Fundamental of Theormodynamics](http://www.physics.unlv.edu/~qzhu/Teaching/ThermalPhysics/Lec01.pdf)
