@@ -1,8 +1,8 @@
-\lecture{26}{Einstein and Debye Model of Solids}{Qiang Zhu}{scribe-name1,2,3}
+\lecture{26}{The Einstein and Debye Models of Solids}{Qiang Zhu}{scribe-name1,2,3}
 
 \section{Einstein Model}
-Einstein Model of a solid crystal is expressed as an independent three dimensional harmonic oscillator.
-The multiplicity of an Einstein solid containing $N$ oscillator and $q$ energy units is approximately
+The Einstein Model of a solid crystal is expressed as an independent three dimensional harmonic oscillator.
+The multiplicity of an Einstein solid containing $N$ oscillators and $q$ energy units is approximately
 \begin{equation} 
 \Omega(N, q) \approx (\frac{q+N}{q})^q (\frac{q+N}{N})^N
 \end{equation}
@@ -14,7 +14,7 @@ S = k\textrm{ln}\Omega &= k\textrm{ln}(\frac{q+N}{q})^q + k\textrm{ln}(\frac{q+N
 \end{split}
 \end{equation}
 
-Let express the energy as $U = q\epsilon$ 
+Let us express the energy as $U = q\epsilon$ 
 \begin{equation}
 \begin{split}
 \frac{1}{T} &= \frac{\partial S}{\partial U} = \frac{1}{\epsilon}\frac{\partial S}{\partial q} \\
@@ -41,38 +41,31 @@ When $kT \gg \epsilon$,
 \begin{equation}
 C_V = \frac{N\epsilon^2}{kT^2} \frac{1+ \epsilon/kT} {(\epsilon/kT)^2} = Nk
 \end{equation}
-Remember we would have 3$N$ oscillators for $N$ atoms, therefore $C_V = 3NK$
+Remember we would have 3$N$ oscillators for $N$ atoms, therefore $C_V = 3Nk$.
 This exactly follows the equipartition theorem. 
 
-Below $kT \approx \epsilon$, the heat capacity falls off, approaching zero as the temperature goes to zero. This
-prediction agrees with part of experiment, but not in detail. 
-The equation predicts $C_V$ exponentially goes to 0, when T $\rightarrow$ 0. But the experiments show that the true low-temperature behavior is cubit: $C_V \propto T^3$
-
-The problem with the Einstein model is that the atoms in a crystal do not vibrate independently of each other. Therefore a better assumption is needed.
+Below $kT \approx \epsilon$, the heat capacity falls off, approaching zero as the temperature goes to zero. This prediction generally agrees with experiment but not in detail. The equation predicts $C_V$ exponentially goes to 0, when T $\rightarrow$ 0. But experiments show that the true low-temperature behavior is cubic: $C_V \propto T^3$. The problem with the Einstein model is that the atoms in a crystal do not vibrate independently of each other. Therefore a better assumption is needed.
 
 \section{Debye Model}
-In reality, there should be low-frequency models of oscillation in which large groups of atoms are moving together, and also
-high-frequency modes in which atoms are moving opposite to their neighbours.
-The units of energy come in different sizes, proportional to the frequency of the modes of the vibration.
-Even at very low temperatures, a few low-frequency modes are still active. 
-This is the reason why the heat capacity goes to 0 less dramatically than the prediction by Einstein model.
-
+In reality, there should be low-frequency modes of oscillation in which large groups of atoms are moving together, and also high-frequency modes in which atoms are moving opposite to their neighbors.
+The units of energy come in different sizes, proportional to the frequency of the modes of the vibration. Even at very low temperatures, a few low-frequency modes are still active. 
+This is the reason why the heat capacity goes to 0 less dramatically than the prediction by the Einstein model.
 
 Based on this reasoning, Debye proposed that each mode of oscillation has a set of equally spaced energy levels with the unit of energy equal to
 \begin{equation}
 \epsilon = hf = \frac{hc_s}{\lambda}=\frac{hc_sn}{2L}
 \end{equation}
-Where $L$ is the length of crystal and $n$ is the magnitude of the vector in $n$-space specifying the shape of the wave, $c_s$ is the speed of the wave.
+Where $L$ is the length of crystal, $n$ is the magnitude of the vector in $n$-space specifying the shape of the wave, and $c_s$ is the speed of the wave.
 
 When the mode is in equilibrium at temperature $T$, the number of units of energy is given by the Plank distribution:
 \begin{equation} 
 \bar{n} = \frac{1}{e^{\epsilon/kT}-1}
 \end{equation} 
-We can think these unit of energy as particles obeying the Bose-Einstein statistics with $\mu$=0. The particles is called {\emph phonons}.
+We can think of these units of energy as particles obeying the Bose-Einstein statistics with $\mu$=0. These particles are called {\emph phonons}.
 
 To calculate the total thermal energy, we add up the energies of all allowed modes:
 \begin{equation}
-U = 3\sum_{nx}\sum_{ny}\sum_{nz} \epsilon \bar{n}(\epsilon)
+U = 3\sum_{n_x}\sum_{n_y}\sum_{n_z} \epsilon \bar{n}(\epsilon)
 \end{equation}
 The factor of 3 counts the three polarization states for each polarization states for each $\bar{n}$.
 
@@ -80,7 +73,7 @@ In a crystal, the atomic spacing puts a strict lower limit on the wavelength. $n
 is a cube, the $n$ along any direction is $N^{\frac{1}{3}}$, where $N$ is the total volume.
 
 Summing over a cube depends on $n_x$, $n_y$ and $n_z$ in a very complicated way. Debye got the idea to pretend that the relevant region of $n$-space is 
-a sphere. He chose a sphere whose total volume is $N$, you can easily show that the radius of the sphere has to be
+a sphere. He chose a sphere whose total volume is $N$. You can easily show that the radius of the sphere has to be
 \begin{equation}
 n_\textrm{max} = (\frac{6N}{\pi})^{1/3}
 \end{equation}
@@ -92,7 +85,7 @@ Physical explanations:
 \item In the intermediate region, not exact, but a continuous function.
 \end{enumerate}
 
-Therefore, we apply the Debyes' approximation and convert the sums to integrals in spherical coordinates,
+Therefore, we apply the Debye's approximation and convert the sums to integrals in spherical coordinates,
 \begin{equation}
 U = 3 \int_0^{n_\textrm{max}} dn \int_0^{\pi/2} d\theta \int_0^{\pi/2} d\phi n^2\textrm{sin}\theta \frac{\epsilon}{e^{\epsilon/kT}-1}
 \end{equation}
@@ -103,22 +96,22 @@ U = \frac{3\pi}{2} \int_0 ^{n_\textrm{max}} \frac{hc_s}{2L} \frac{n^3}{e^{hc_sn/
 
 Let's make a substitution,
 \begin{equation}
-x = \frac{hc_sn}{2LKT}
+x = \frac{hc_sn}{2LkT}
 \end{equation}
 
 Then 
 \begin{equation}
-x_\textrm{max} = \frac{hc_s n_{\textrm{max}}}{2LKT} = \frac{hc_s}{2kT} (\frac{6N}{\pi V})^{1/3} = \frac{T_D}{T}
+x_\textrm{max} = \frac{hc_s n_{\textrm{max}}}{2LkT} = \frac{hc_s}{2kT} (\frac{6N}{\pi V})^{1/3} = \frac{T_D}{T}
 \end{equation}
 $T_D$ is the Debye Temperature, a characteristic temperature. 
 
 After substitution, we get
 \begin{equation}
-U = \frac{9NKT^4}{T_D^3} \int _0 ^{T_D/T} \frac{x^3}{e^x -1} dx
+U = \frac{9NkT^4}{T_D^3} \int _0 ^{T_D/T} \frac{x^3}{e^x -1} dx
 \end{equation}
 
 When $T \gg T_D$, the upper limit of the integral is much less than 1, so $x$ is always very small, and we 
-can approximate $e^x = 1+x$. Then 1 cancels, and the integral is simply, $x^2dx$, leading to the final result
+can approximate $e^x \approx 1+x$. Then 1 cancels, and the integral is simply $x^2dx$, leading to the final result
 \begin{equation}
  U = \frac{9NkT^4}{T_D^3} \frac{1}{3} (\frac{T_D}{T})^3 = 3NkT
 \end{equation}
@@ -129,22 +122,22 @@ U = \frac{3\pi^4}{5} \frac{NkT^4}{T_D^3}
 \end{equation}
 And the heat capacity becomes proportional to $T^3$.
 
-The prediction agrees very well with low-temperature observations. Expect for metal, there is linear contribution from the conduction electrons.
+The prediction agrees very well with low-temperature observations. However, for metal there is linear contribution from the conduction electrons.
 \begin{equation}
-C = \gamma T + \frac{12\pi^4Nk}{5T_D^3} T^3
+C = \gamma T + \frac{12\pi^4Nk}{5T_D^3} T^3,
 \end{equation}
 
-The Debye temperature ranges from 88 K for lead to 1860 K for diamond. Since the heat capacity reaches 95 of its maximum value at $T=T_D$, the Debye
+where $\gamma$ is a dimensionless coefficient. The Debye temperature ranges from 88 K for lead to 1860 K for diamond. Since the heat capacity reaches 95 of its maximum value at $T=T_D$, the Debye
 temperature gives you a rough idea of when you can get away with just using the equipartition theorem. 
 
-Debye model gives you a rough idea still. For more rigorous analysis, one needs to know exactly the distribution of phonons, which belongs
+The Debye model gives you a rough idea still. For a more rigorous analysis, one needs to know exactly the distribution of phonons, which belongs
 to a book in solid state physics.
 
 \section{Further Discussions}
 \begin{enumerate}
-\item{Both Einstein and Debye models give the correct high temperature Limit. It indicates that all oscillators under high $T$ essentially have the same energy, even though the oscillators follows that Bose-Einstein distribution in Debye model. Try to apply the distribution model to prove it.}
-\item{Under low temperature limit, Debye model captures the right physics, but why does it fail in the intermediate temperature? In Debye model, it assumes that the
-oscillators with lower frequencies has more populations, and the phonon numbers monotonically decreases with the increase of frequency, no true in reality!}
+\item{Both Einstein and Debye models give the correct high temperature limit. It indicates that all oscillators under high $T$ essentially have the same energy, even though the oscillators follow that Bose-Einstein distribution in the Debye model. Try to apply the distribution model to prove it.}
+\item{In low temperature limit, the Debye model captures the right physics, but why does it fail in the intermediate temperature? In the Debye model, it assumes that the
+oscillators with lower frequencies have more populations, and the phonon numbers monotonically decrease with the increase of frequency. Not true in reality!}
 
 
 \begin{figure}[h]

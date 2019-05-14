@@ -1,31 +1,28 @@
 \lecture{27}{Free Electron Gases}{Qiang Zhu}{scribe-name1,2,3}
 
 \section{The Regime of Quantum Statistics}
-As said in the introduction of Fermions and Bosons, Quantum Statistics starts to play the role in the dense system and low temperatures.
+As stated in the introduction to Fermions and Bosons, Quantum Statistics starts to play a role in the dense system and low temperatures.
 For an electron at room temperature, the quantum volume is
 \begin{equation}
 V_Q = (\frac{h}{\sqrt{2\pi mkT}})^3 = (\textrm{4.3~nm})^3
 \end{equation}
 
-In a typical metal, there is about one (or two) conduction electron per atom, the volume per electron is roughly the volume of
-an atom, namely $(\textrm{0.2 nm})^3$. Therefore, the temperature regime for electron has a pretty wide range. 
-In other word, the temperature is much too low for Boltzmann statistics to apply.
+In a typical metal, there is about one (or two) conduction electron per atom, the volume per electron is roughly the volume of an atom, namely $(\textrm{0.2 nm})^3$. Therefore, the temperature regime for electron has a pretty wide range. In other words, the temperature is much too low for Boltzmann statistics to apply.
 
-In the following, we will exclusively discuss the case of electron, a typical Fermion at zero and above temperature.
+In what follows, we will exclusively discuss the case of the electron, a typical Fermion at zero  temperature and above.
 
 \section{Electron at 0 K}
-At $T$ = 0, the Fermi-Dirac distribution becomes a step function. All single-particle with energy less than $\mu$ are occupied, while
-all states with energy greater than $\mu$ are unoccupied. Here we call $\mu$ \textbf{Fermi energy} $\epsilon_F$.
+At $T$ = 0, the Fermi-Dirac distribution becomes a step function. All single-particle states with energy less than $\mu$ are occupied, while all states with energy greater than $\mu$ are unoccupied. Here we call $\mu$ \textbf{Fermi energy} $\epsilon_F$.
 
 In order to calculate $\epsilon_F$, as well as other properties such as the total energy and the pressure of the electron gas,
 let's make the approximation that the electrons are free particles, subject to no external forces. 
-This is almost for metal accurate expect that there still exists the attractive forces from nearby ions in the crystal lattice.
+This is almost for metal accurate except that there still exist attractive forces from nearby ions in the crystal lattice.
 
-The definite energy wavefunctions of a free electron inside a box are just sine waves. For a one-dimensional box the allowed wavelengths and momentas are
+The definite energy wavefunctions of a free electron inside a box are just sine waves. For a one-dimensional box the allowed wavelengths and momenta are
 \begin{equation}
 \lambda_n = \frac{2L}{n}, ~~~~~~~~~~~ p_n = \frac{h}{\lambda_n} = \frac{hn}{2L}
 \end{equation}
-where $n$ is any positive integer. In a three dimensional box these equations apply separately to each direction, so
+where $n$ is any positive integer. In a three-dimensional box these equations apply separately to each direction, so
 \begin{equation}
 \epsilon = \frac{p^2}{2m} = \frac{h^2}{8mL^2}(n_x^2+n_y^2+n_z^2)
 \end{equation}
@@ -43,11 +40,11 @@ N = 2 \cdot \frac{1}{8} \cdot \frac{4}{3} \pi n_\textrm{max}^3 = \frac{\pi n_\te
 
 To calculate the total energy of all electrons, we need to sum over the energies of the electrons in all occupied states.
 \begin{equation}
-U = 2 \sum_{n_x} \sum_{n_y} \sum_{n_z} = 2 \int\int\int \epsilon(n) dn_x dn_y dn_z.
+U = 2 \sum_{n_x} \sum_{n_y} \sum_{n_z}\epsilon(n)  = 2 \int\int\int \epsilon(n) dn_x dn_y dn_z.
 \end{equation}
 
 The factor of 2 is for the two spin orientations for each $n$. 
-Transforming the triple integral to the spherical coordinates, we have the total energy as follows,
+Transforming the triple integral to spherical coordinates, we have the total energy as follows,
 \begin{equation}
 U = 2 \int_0^{n_\textrm{max}} dn \int_0 ^{\pi/2} d\theta \int_0 ^{\pi/2} d\phi n^2 \textrm{sin}\theta \epsilon(n)
 \end{equation}
@@ -69,7 +66,7 @@ T_F = \epsilon_F/k
 Fermi temperature is purely hypothetical for electrons in a metal, since metals liquefy or evaporate long before it is reached.
 The pressure of an electron gas is
 \begin{equation}
-P = \frac{\partial}{\partial V} [\frac{3}{5}N \frac{h^2}{8m} (\frac{3N}{/pi})^{2/3} V^{-2/3}] 
+P = -\frac{\partial}{\partial V} [\frac{3}{5}N \frac{h^2}{8m} (\frac{3N}{\pi})^{2/3} V^{-2/3}] 
   = \frac{2N\epsilon_F}{5V} = \frac{2U}{3V}
 \end{equation}
 
@@ -83,10 +80,8 @@ B = -V (\frac{\partial P}{\partial V})_T = \frac{10U}{9V}
 This quantity agrees with experiment within a factor of 3 or so, for most metals.
 
 \section{Small Nonzero Temperature}
-If we go beyond 0 K, we can calculate even more properties related to temperature. At temperature $T$, all particles typically acquire a thermal energy of $kT$.
-However, in a degenerate electron gas, most of the electrons cannot obtain these energies, because all states have been already occupied. 
-The only active electrons are those which are already within about $kT$ of the Fermi energy. The number is proportional to $NkT$
-Thus, the additional energy that a degenerate electron gas acquires when its temperature is raised from zero to T is proportional to $N(kT)^2$.
+If we go beyond 0 K, we can calculate even more properties related to temperature. At temperature $T$, all particles typically acquire a thermal energy of $kT$. However, in a degenerate electron gas, most of the electrons cannot obtain these energies, because all states have been already occupied. 
+The only active electrons are those which are already within about $kT$ of the Fermi energy. The number is proportional to $NkT$. Thus, the additional energy that a degenerate electron gas acquires when its temperature is raised from zero to T is proportional to $N(kT)^2$.
 
 The total energy increase would be 
 \begin{equation}
@@ -100,23 +95,23 @@ C_V = (\frac{\partial U}{\partial T})_V = \frac{\pi^2Nk^2T}{2\epsilon_F}
 To better visualize the behavior of a Fermi gas at small nonzero $T$, we need to introduce a variable to describe the distribution of electrons with respect to the energy,
 \begin{equation}
 U = \pi \int_0^{n_\textrm{max}} n^2 \epsilon(n) dn 
-  = \int _0 ^{\epsilon_F} \epsilon[\frac{\pi}{2} (\frac{8ml^2}{h^2}) ^{3/2} \sqrt{\epsilon}] d\epsilon
+  = \int _0 ^{\epsilon_F} \epsilon[\frac{\pi}{2} (\frac{8mL^2}{h^2}) ^{3/2} \sqrt{\epsilon}] d\epsilon
 \end{equation}
 
 The term in the square brackets is called density of states,
 \begin{equation}
-g(\epsilon) = \frac{\pi}{2} (\frac{8ml^2}{h^2}) ^{3/2} \sqrt{\epsilon} = \frac{3N}{2\epsilon_F^{2/3}} \sqrt{\epsilon}
+g(\epsilon) = \frac{\pi}{2} (\frac{8mL^2}{h^2}) ^{3/2} \sqrt{\epsilon} = \frac{3N}{2\epsilon_F^{2/3}} \sqrt{\epsilon}
 \end{equation}
 
 So $g(\epsilon)$ is proportional to $\sqrt{\epsilon}$. In a more realistic model, we would want to consider the attraction of electrons with the ions.
-Then the wavefunctions and energies would be much more complicates, $g(\epsilon)$ would be very different.
+Then the wavefunctions and energies would be much more complicated, $g(\epsilon)$ would be very different.
 
 For an electron gas at 0 K, we can get the total number of electrons by just integrating the density of states up to the Fermi energy
 \begin{equation}
-N = \int_0 ^{\epsilon_{F}} g(\epsilon) ~~~~~ (T=0)
+N = \int_0 ^{\epsilon_{F}} g(\epsilon) d\epsilon~~~~~ (T=0)
 \end{equation}
 
-What to do with the finite temperature? We need to multiply $g(\epsilon)$ by the probability of a state by the Fermi-Dirac distribution.
+What about a finite temperature? We need to multiply $g(\epsilon)$ by the probability of a state by the Fermi-Dirac distribution.
 \begin{equation}
 N = \int_0 ^\infty g(\epsilon) \frac{1}{e^{(\epsilon-u)/kT)+1}} d\epsilon
 \end{equation}
